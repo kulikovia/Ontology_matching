@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology/"
+     xml:base="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:custom_ontology="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#usesProcedure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#usesProcedure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#Package"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#usesTable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#usesTable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure"/>
+        <rdfs:range rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:label>usesTable</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#Package -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#Package">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#Package"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table -->
+
+    <owl:Class rdf:about="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table">
+        <rdfs:label>Table</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#charge_prolong_period -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#charge_prolong_period">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>Extended service periods</rdfs:comment>
+        <rdfs:label>charge_prolong_period</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#check_rule_to_switchon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#check_rule_to_switchon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_action"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_order"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#service"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_serv_history"/>
+        <rdfs:comment>Checks the possibility of enabling the service according to the connection rules
+(Centralized Ordering Rules Management) &lt;- (check_rule_to_switchon)</rdfs:comment>
+        <rdfs:label>check_rule_to_switchon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#inv_order -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#inv_order">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#Package"/>
+        <custom_ontology:usesProcedure rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#check_rule_to_switchon"/>
+        <custom_ontology:usesProcedure rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#new_serv_order"/>
+        <custom_ontology:usesProcedure rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#update_serv_order"/>
+        <rdfs:comment>Ordering and processing of physical and logical services</rdfs:comment>
+        <rdfs:label>inv_order</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#new_serv_order -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#new_serv_order">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#charge_prolong_period"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#resource_balance"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_order"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#service"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#sord_buffer"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_serv_history"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#tariff_service"/>
+        <rdfs:comment>Ordering a new logical service
+(Centralized Ordering Rules Management) &lt;- (new_serv_order)</rdfs:comment>
+        <rdfs:label>new_serv_order</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#resource_balance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#resource_balance">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>Resource balances of clients and subscribers</rdfs:comment>
+        <rdfs:label>resource_balance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_action">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>System directory of actions on services</rdfs:comment>
+        <rdfs:label>serv_action</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_order -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_order">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>Orders for logical services</rdfs:comment>
+        <rdfs:label>serv_order</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#service">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>Directory of logical services provided to system subscribers</rdfs:comment>
+        <rdfs:label>service</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#sord_buffer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#sord_buffer">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>Pending orders</rdfs:comment>
+        <rdfs:label>sord_buffer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_serv_history -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_serv_history">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>History of services of system subscribers</rdfs:comment>
+        <rdfs:label>subs_serv_history</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#tariff_service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#tariff_service">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>History of changes in TP services</rdfs:comment>
+        <rdfs:label>tariff_service</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#update_serv_order -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#update_serv_order">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#resource_balance"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_action"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_order"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#sord_buffer"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_serv_history"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#tariff_service"/>
+        <rdfs:comment>Changing the status of a service order. Change of service history. Disable/enable discounts
+(Centralized Ordering Rules Management) &lt;- ( update_serv_order)</rdfs:comment>
+        <rdfs:label>update_serv_order</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
