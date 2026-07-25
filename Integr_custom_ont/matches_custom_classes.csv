@@ -1,0 +1,5 @@
+custom_item,db_item,score
+Table,Table,100
+Column,Column,100
+Procedure,Procedure,100
+Package,Package,100

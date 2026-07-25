@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1/"
+     xml:base="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:TMF_SID_v1="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#hasABE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#hasABE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#TMFDomain"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#ABE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#hasAttribute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#hasAttribute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#BE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Attribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#hasBE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#hasBE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#ABE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#BE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#hasOrigin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#hasOrigin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Attribute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#hasStereotype -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#hasStereotype">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Attribute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#label">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#ABE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Attribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#BE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#TMFDomain"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#ABE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Attribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#BE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#TMFDomain"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#ABE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#ABE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#TMFDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Attribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Attribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#BE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#BE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#BE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#ABE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#TMFDomain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#TMFDomain"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Business_Entity.Customer_Domain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Business_Entity.Customer_Domain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#TMFDomain"/>
+        <rdf:label>Business Entity.Customer Domain</rdf:label>
+        <rdfs:comment>&quot;The Customer domain represents roles, information and activities carried out by parties (e.g. individuals / organizations) playing roles that are involved in the management of and all types of contact with customers as they acquire, use, pay for and are supported for goods and services (i.e. products) that they obtain from an enterprise. Activities include: Strategy to Readiness (e.g. customer strategies, capabilities, customer lifecycle management) and Operations (e.g. customer relationship management , data, privacy, interactions, communications, orders, accounts, balances, service level agreements (SLAs), training, problems, cases, invoices, payments, disputes, collections, loyalty, performance, usage statistics, analytics and support). 
+
+Note: Some changes have been done in the Customer Domain in SID 17.0. These changes aim at removing attributes and entities from existing Customer domain ABEs and using equivalent Party domain ABE attributes and entities. The conformance to Customer domain ABEs’ entities/attributes now must include mapping to Party domain ABEs’ entities/attributes. These are shown in Customer guide book figures. And the past conformance is not impacted, although any conformance done in the past should note that some Customer domain ABEs’ entities/attributes have been replaced by equivalent Party domain ABEs’ entities/attributes. For example, the customer credit profile entities have been replaced by references to equivalent party credit profile entities.&quot;</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Buyer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Buyer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#BE"/>
+        <TMF_SID_v1:hasAttribute rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#ID"/>
+        <TMF_SID_v1:hasAttribute rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#description"/>
+        <TMF_SID_v1:hasAttribute rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#status"/>
+        <TMF_SID_v1:hasAttribute rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#validFor"/>
+        <rdf:label>Buyer</rdf:label>
+        <rdfs:comment>A PartyRole played by a Party, who imposed a Supplier to provide a deliverable by a formal Agreement (Commitment).</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Customer_Party_Roles_ABE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Customer_Party_Roles_ABE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#ABE"/>
+        <TMF_SID_v1:hasBE rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Buyer"/>
+        <rdf:label>Customer Party Roles ABE</rdf:label>
+        <rdfs:comment>The Customer Party Roles ABE is the focus on all the PartyRoles related to Customer.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#ID">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Attribute"/>
+        <TMF_SID_v1:hasOrigin>RootEntity</TMF_SID_v1:hasOrigin>
+        <TMF_SID_v1:hasStereotype>«required»</TMF_SID_v1:hasStereotype>
+        <rdf:label>ID</rdf:label>
+        <rdfs:comment>Unambiguously distinguishes different object instances.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#description -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#description">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Attribute"/>
+        <TMF_SID_v1:hasOrigin>RootEntity</TMF_SID_v1:hasOrigin>
+        <TMF_SID_v1:hasStereotype></TMF_SID_v1:hasStereotype>
+        <rdf:label>description</rdf:label>
+        <rdfs:comment>&quot;This is a string, and defines a textual free-form description of the object.
+
+Notes:
+
+This attribute doesn’t exist in M.3100. The CIM has two attributes for this purpose, Caption (a short description) and Description.&quot;</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#name -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#name">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Attribute"/>
+        <TMF_SID_v1:hasOrigin>RootEntity</TMF_SID_v1:hasOrigin>
+        <TMF_SID_v1:hasStereotype></TMF_SID_v1:hasStereotype>
+        <rdf:label>name</rdf:label>
+        <rdfs:comment>Represents a user-friendly identifier of an object. It is a (possibly ambiguous) name by which the object is commonly known in some limited scope (such as an organization) and conforms to the naming conventions of the country or culture with which it is associated. It is NOT used as a naming attribute (i.e., to uniquely identify an instance of the object).</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#status -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#status">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Attribute"/>
+        <TMF_SID_v1:hasOrigin>PartyRole</TMF_SID_v1:hasOrigin>
+        <TMF_SID_v1:hasStereotype>«required»</TMF_SID_v1:hasStereotype>
+        <rdf:label>status</rdf:label>
+        <rdfs:comment>Used to track the lifecycle status, e.g. existing, prospective or former customers.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#validFor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#validFor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#Attribute"/>
+        <TMF_SID_v1:hasOrigin>PartyRole</TMF_SID_v1:hasOrigin>
+        <TMF_SID_v1:hasStereotype>«required»</TMF_SID_v1:hasStereotype>
+        <rdf:label>validFor</rdf:label>
+        <rdfs:comment>The time period that the PartyRole is valid for</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

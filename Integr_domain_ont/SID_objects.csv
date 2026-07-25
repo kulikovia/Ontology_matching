@@ -1,0 +1,1919 @@
+sid_object
+Market & Sales Domain.Market Sales Party Roles ABE
+MarketingCampaignRole
+MarketingDesigner
+MarketingManager
+MarketingOperator
+Prospect
+SalesAgent
+Market & Sales Domain.Market Segment ABE
+AtomicMarketSegment
+AtomicMarketSegmentCharacteristic
+CompositeMarketSegment
+CompositeMarketSegmentCharacteristic
+MarketSegment
+MarketSegmentCharacteristic
+MarketSegmentCharacteristicValue
+Market & Sales Domain.Competitor ABE
+CompetitiveTier
+Competitor
+CompetitorMarketSegment
+CompetitorMarketSegmentSWOT
+CompetitorSWOT
+CompetitorTier
+SWOT
+Competitor ABE.Competitor Intelligence ABE
+AtomicCompIntelCharacteristic
+CompetitorIntelCharacteristic
+CompetitorIntelCharacteristicValue
+CompetitorIntelligence
+CompetitorIntelligenceMarketSegment
+CompetitorIntelligencePartyRole
+CompositeCompIntelCharacteristic
+Competitor ABE.Competitor Product Correlation ABE
+AtomicCompProdCorrelationCharacteristic
+CompetitorProductCorrelation
+CompositeCompProdCorrelationCharacteristic
+CompProdCorCharacteristicValue
+CompProdCorrelationCharacteristic
+Market & Sales Domain.Market & Sales Strategy Plan ABE
+AtomicOperationalMktPlan
+CompositeOperationalMktPlan
+MarketStrategy
+OperationalMarketingPlan
+Market & Sales Domain.Marketing Campaign ABE
+AtomicMarketingCampaignCharacteristic
+CompositeMarketingCampaignCharacteristic
+MarketingCampaign
+MarketingCampaignCharacteristic
+MarketingCampaignCharacteristicValue
+MktCampaignRule
+MktCampaignWave
+WaveList
+Market & Sales Domain.Marketing Performance ABE
+MarketingIndicator
+MarketingIndicatorDefinition
+MarketingObjectiveDefinition
+MarketingObjectiveMeasure
+Market & Sales Domain.Sales Commission ABE
+SalesCommission
+SalesCommissionRule
+SalesCommissionSpecification
+SalesCommissionSpecificationType
+Market & Sales Domain.Sales Lead and Opportunity ABE
+Sales Lead and Opportunity ABE.Sales Opportunity ABE
+SalesOpportunity
+SalesOpportunityItem
+SalesProject
+Sales Lead and Opportunity ABE.Sales Lead ABE
+SalesLead
+Market & Sales Domain.Market Sales Forecast ABE
+Market & Sales Domain.Market Sales Statistics ABE
+AtomicMarketStatistic
+CompositeMarketStatistic
+MarketStatistic
+Market & Sales Domain.Sales Channel ABE
+SalesChannel
+Customer Domain.Customer Party Roles ABE
+Buyer
+Customer
+CustomerServiceRepresentative
+Customer Domain.Customer Product Order ABE
+Customer Product Order ABE.Customer Product Order ABE
+CustomerProductOrder
+CustomerProductOrderItem
+ShoppingCart
+ShoppingCartItem
+Customer Product Order ABE.Sales Quote ABE
+SalesQuote
+SalesQuoteAgreement
+Customer Product Order ABE.Sales Quote Specification ABE
+SalesQuoteSpecification
+SalesQuoteSpecificationType
+Customer Domain.Customer Service Level Agreement ABE
+CustomerServiceLevelAgreement
+Customer Domain.Customer Interaction ABE
+CustomerDisputedAmount
+CustomerInquiry
+CustomerInvoiceInquiry
+CustomerQuote
+Customer Domain.Customer Problem ABE
+CloseCustomerProblemSummary
+CustomerProblem
+CustomerProblemTask
+CustomerProblemWorkaround
+KnownProblemDescription
+Customer Domain.Applied Customer Billing Rate ABE
+AppliedCustomerBillingCharge
+AppliedCustomerBillingCredit
+AppliedCustomerBillingDiscount
+AppliedCustomerBillingProductAlteration
+AppliedCustomerBillingProductCharge
+AppliedCustomerBillingProductOneTimeCharge
+AppliedCustomerBillingProductRecurringCharge
+AppliedCustomerBillingProductUsageRate
+AppliedCustomerBillingRate
+AppliedCustomerBillingRebate
+AppliedCustomerBillingReplacement
+AppliedCustomerBillingTaxRate
+AppliedCustomerFeeCharge
+AtomicAppliedCustomerBillingRate
+CompositeAppliedCustomerBillingRate
+FinancialCharge
+FinancialChargeSpec
+ProductFinancialAccountRelationship
+Applied Customer Billing Rate ABE.Applied Customer Billing Rate Spec ABE
+AppliedCustomerBillingRateSpec
+Customer Domain.Customer Bill ABE
+CustomerBill
+Customer Bill ABE.Customer Billing Statistic ABE
+ChargeAccumulatedForUsageCharacteristicSum
+CustomerBillingAccountChargeSum
+CustomerBillingAccountChargeSumBalance
+CustomerBillingAccountChargeSumSpec
+CustomerBillingProductChargeSum
+CustomerBillingProductChargeSumBalance
+CustomerBillingProductChargeSumSpec
+CustomerBillingStatistic
+CustomerBillingStatisticBalance
+CustomerBillingStatisticSpec
+UsageCharacteristicSumBalance
+UsageCharacteristicSumSpec
+Customer Domain.Customer Billing Account ABE
+BalanceUsageRule
+ChargeAmountThreshold
+ChargeSplittingRule
+CustomerBillingAccount
+CustomerBillingAccountAssignment
+CustomerBillingAccountBalance
+Customer Domain.Customer Bill Collection ABE
+Customer Bill Collection ABE.Customer Payment ABE
+CustomerPayment
+CustomerPaymentItem
+Customer Bill Collection ABE.Dunning ABE
+DunningCase
+DunningCaseRule
+DunningNotification
+DunningRule
+DunningScenario
+DunningWriteOff
+HardDunning
+SoftDunning
+Customer Domain.Customer Statistic ABE
+ChurnRetentionStatistic
+Customer Domain.Customer Bill Inquiry ABE
+CustomerBillingInquiry
+Product Domain.Product Capacity ABE
+ProductCapacity
+ProductCapacityDemand
+Product Domain.Product Party Roles ABE
+ProductManager
+ProductUser
+Product Domain.Product Performance ABE
+Product Domain.Product Test ABE
+ProductTest
+ProductTestSpec
+Product Domain.Product Configuration ABE
+ProductConfigSpec
+ProductConfiguration
+Product Configuration ABE.Product Action ABE
+AllowedProductAction
+ProductActionType
+ProductConfigSpecAction
+Product Domain.Loyalty ABE
+Loyalty ABE.Loyalty Program ABE
+LoyaltyAccount
+LoyaltyBalance
+LoyaltyBurn
+LoyaltyEarn
+LoyaltyExecutionPoint
+LoyaltyProgramMember
+LoyaltyProgramProduct
+Loyalty ABE.Loyalty Program Specification ABE
+LoyaltyAction
+LoyaltyCondition
+LoyaltyEvent
+LoyaltyProgramProdSpec
+LoyaltyRule
+Product Domain.Product Usage ABE
+ProductBundleUsage
+ProductComponentUsage
+ProductUsage
+Product Usage ABE.Product Usage Spec ABE
+AtomicProductUsageSpec
+CompositeProductUsageSpec
+ProductUsageSpec
+Product Domain.Strategic Product Portfolio Plan ABE
+ProductOfferingStrategy
+Product Domain.Product ABE
+Product
+ProductBundle
+ProductCharacteristicValue
+ProductComponent
+ProductPlaceRole
+ProductRelationship
+Product ABE.Network Product ABE
+ConsumptionSummary
+NetworkProduct
+Product ABE.Product Price ABE
+ComponentProdPrice
+CompositeProdPrice
+DiscountProdPriceAlteration
+OneTimeProdPriceCharge
+ProdPriceAlteration
+ProdPriceCharge
+ProductPrice
+ProductPricePartyRole
+RecurringProdPriceCharge
+ReplacementProdPriceAlteration
+UsageProdPriceCharge
+Product ABE.Usage Volume Product ABE
+UsageVolumeBalance
+UsageVolumeBalanceCredit
+UsageVolumeBalanceDebit
+UsageVolumeBalanceEntry
+UsageVolumeProduct
+Product Domain.Product Offering ABE
+BundledProdOfferOption
+BundledProductOffering
+DistChannelProdOffer
+DistributionChannel
+ProductOffering
+ProductOfferingRelationship
+ProductOfferingTerm
+SimpleProductOffering
+Product Offering ABE.Pricing Logic Algorithm ABE
+MatrixCellCharValue
+MatrixCharValue
+MatrixCharValueIndex
+OneTimeRatingPLA
+PricingLogicAlgorithm
+RecurringRatingPLA
+UsageRatingPLA
+Pricing Logic Algorithm ABE.PLA Spec ABE
+MatrixCharacteristicSpec
+MatrixSpecDimension
+OneTimePLASpec
+PricingLogicAlgorithmSpec
+RecurringPLASpec
+UsagePLASpec
+Product Offering ABE.Product Catalog ABE
+ProdCatProdOffer
+ProductCatalog
+ProductCatalogSpecification
+Product Offering ABE.Product Offering Price ABE
+ComponentProdOfferPrice
+CompositeProdOfferPrice
+DiscountProdOfferPriceAlteration
+FeeProdOfferingPrice
+OneTimeProdOfferPriceCharge
+PriceEvent
+ProdOfferPriceAlteration
+ProdOfferPriceCharge
+ProductOfferingPrice
+RecurringProdOfferPriceCharge
+ReplacementProdOfferPriceAlteration
+SimpleUsageProdOfferPriceCharge
+TariffUsageProdOfferPriceCharge
+UsageProdOfferPriceCharge
+Product Offering ABE.Product Offering Price Rule ABE
+ProdOfferPriceAction
+ProdOfferPriceCondition
+ProdOfferPricePolicyValue
+ProdOfferPricePolicyVariable
+Product Offering ABE.Product Offering Price Tax ABE
+ComplexTaxDefinition
+SimpleAmountTaxDefinition
+SimpleRateTaxDefinition
+TaxDefinition
+TaxJurisdiction
+TaxProdOfferPriceAlteration
+TaxProdPriceAlteration
+TaxRule
+Product Domain.Product Specification ABE
+AtomicProductSpecification
+CompositeProductSpecification
+ProdSpecBPProdSpecChoice
+ProdSpecCharValueUse
+ProductCategory
+ProductLine
+ProductSpecCharacteristic
+ProductSpecCharacteristicValue
+ProductSpecCharUse
+ProductSpecification
+ProductSpecificationCost
+ProductSpecificationRelationship
+ProductSpecificationType
+ProductSpecificationVersion
+Product Specification ABE.Goods and Shipping Product Spec ABE
+GoodsProdSpecStockItemChoice
+GoodsProductSpec
+ShippingProductSpec
+Product Specification ABE.Network Product Spec ABE
+NetworkProductSpec
+Product Specification ABE.Usage Volume Product Spec ABE
+UsageVolumeChargingRule
+UsageVolumeProductSpec
+Product Domain.Product Order ABE
+ProductOrderItemPlaceRole
+ProductOrderItem
+ProductOrder
+ProductOrderRelationship
+ProductOrderItemRelationship
+Service Domain.Service Domain Overviews
+Service Domain.Service Party Roles ABE
+ServiceDesigner
+TechnicalSolutionDesigner
+Service Domain.Service Specification ABE
+ServiceSpecCharacteristic
+ServiceSpecCharacteristicValue
+ServiceSpecCharUse
+ServiceSpecCharValueUse
+ServiceSpecification
+ServiceSpecificationRole
+ServiceSpecificationType
+ServiceSpecRelationship
+ServiceSpecVersion
+Service Specification ABE.Customer Facing Service Spec ABE
+CFSSpecVersionDetails
+CustomerFacingServiceSpec
+CustomerFacingServiceSpecAtomic
+CustomerFacingServiceSpecComposite
+CustomerFacingServiceSpecVersion
+Customer Facing Service Spec ABE.Customer Facing Service Spec Role ABE
+CustomerFacingServiceSpecRole
+Customer Facing Service Spec ABE.Service Package ABE
+ServicePackageSpec
+ServicePackageSpecAtomic
+ServicePackageSpecComposite
+Service Specification ABE.Resource Facing Service Spec ABE
+ResourceFacingServiceSpec
+ResourceFacingServiceSpecAtomic
+ResourceFacingServiceSpecComposite
+ResourceFacingServiceSpecVersion
+RFSSpecVersionDetails
+Resource Facing Service Spec ABE.Resource Facing Service Spec Role ABE
+ResourceFacingServiceSpecRole
+Resource Facing Service Spec ABE.Service Bundle ABE
+ServiceBundleSpec
+ServiceBundleSpecAtomic
+ServiceBundleSpecComposite
+ServicePackageBundleDetails
+Service Specification ABE.Service Catalog ABE
+ServCatalogServCandidate
+ServiceCandidate
+ServiceCatalog
+ServiceCatalogSpecification
+Service Domain.Service ABE
+AdministerServiceDetails
+OwnsServiceDetails
+Service
+ServiceCharacteristicValue
+ServicePlaceDetails
+ServiceRelationship
+ServiceRole
+Service ABE.Customer Facing Service ABE
+CustomerFacingService
+CustomerFacingServiceAtomic
+CustomerFacingServiceComposite
+ServicePackage
+Customer Facing Service ABE.CustomerFacing Service Role ABE
+CustomerFacingServiceRole
+Service ABE.Resource Facing Service ABE
+ProtocolServiceDetails
+ResourceFacingService
+ResourceFacingServiceAtomic
+ResourceFacingServiceComposite
+ServiceBundle
+Resource Facing Service ABE.Resource Facing Service Role ABE
+ResourceFacingServiceRole
+Service Domain.Service Configuration ABE
+ServiceConfigSpec
+ServiceConfiguration
+Service Domain.Service Order ABE
+ServiceOrder
+ServiceOrderItem
+Service Domain.Service Usage ABE
+ServiceUsage
+ServiceUsageSpec
+Service Domain.Service Test ABE
+ServiceTest
+ServiceTestSpec
+Service Domain.Service Performance ABE
+ServicePerformance
+Service Performance ABE.Service Level Spec ABE
+KeyPerformanceIndicatorSLSParm
+KeyQualityIndicatorSLSParm
+NegotiatedServiceLevelSpec
+ServiceLevelObjective
+ServiceLevelSpecApplicability
+ServiceLevelSpecConsequence
+ServiceLevelSpecExpression
+ServiceLevelSpecification
+ServiceLevelSpecParameter
+TemplateServiceLevelSpec
+Service Performance ABE.Service Performance Specification ABE
+ServicePerformanceSpec
+Service Domain.Service Capacity ABE
+ServiceCapacity
+ServiceCapacityDemand
+Service Domain.Service Problem ABE
+ServiceProblem
+Service Domain.Service Strategy & Plan ABE
+Service Domain.TIP Service Management ABE
+CommonServiceInfo
+SapSpecification
+ServiceAccessPoint
+ServiceDefinition
+ServiceTemplate
+Resource Domain.Resource Party Roles ABE
+ResourceInstaller
+Technician
+TelecomTechnician
+Resource Domain.Resource Specification ABE
+ResourceRoleSpecification
+ResourceSpecCharacteristic
+ResourceSpecCharacteristicValue
+ResourceSpecCharUse
+ResourceSpecCharValueUse
+ResourceSpecification
+ResourceSpecificationPerfRole
+ResourceSpecificationRelationship
+ResourceSpecificationType
+ResourceSpecVersion
+ResourceSpecVersionDetails
+Resource Specification ABE.CompoundResource Specification ABE
+CompoundResourceSpec
+SoftBlackBoxSpecification
+Resource Specification ABE.Logical Resource Specification ABE
+ConnectionPointSpec
+LogicalResourceSpec
+LogicalResourceSpecVersion
+ResourceFunctionSpec
+Logical Resource Specification ABE.Logical Role Specification ABE
+LogicalDeviceRoleSpec
+Logical Resource Specification ABE.Software Resource and Software Specifications ABE
+Software Resource and Software Specifications ABE.Software Resource Specification ABE
+APISpecification
+SoftwareResourceSpecification
+SoftwareResourceSpecRelationship
+SoftwareSpecAlternativeRelationship
+SoftwareSpecConstraintRelationship
+SoftwareSpecRefinementRelationship
+Software Resource and Software Specifications ABE.Software Specification ABE
+AtomicSoftwareSpecification
+CompositeSoftwareSpecification
+ConfigurationFeatureSpec
+HostingPlatformRequirementSpec
+ResourceSpecRunsSoftwareSpec
+SoftConnectionPointSpec
+SoftwareSpecification
+Resource Specification ABE.PhysicalResource Specification ABE
+ElectronicConnectionPointSpec
+PhysicalBlackBoxSpec
+PhysicalDeviceSpecification
+PhysicalResourceSpec
+PhysicalResourceSpecAttributes
+PhysicalResource Specification ABE.Physical Role Specification ABE
+PhysicalDeviceRoleSpec
+PhysicalResourceRoleSpec
+Resource Specification ABE.Resource Catalog ABE
+ResCatalogResCandidate
+ResourceCandidate
+ResourceCatalog
+ResourceCatalogSpecification
+Resource Domain.Resource ABE
+AdministerResourceDetails
+OwnsResourceDetails
+Resource
+ResourceCharacteristicValue
+ResourceRelationship
+ResourceRole
+Resource ABE.Compound Resource ABE
+CompoundResource
+CompoundResourceRole
+ResourceCollection
+ResourceElement
+ResourcePort
+SoftBlackBox
+Computing and Software Addendum Figures.Computing and Software Scenarios
+Resource ABE.Logical Resource ABE
+ConnectionPoint
+LogicalResource
+LogicalResourceRole
+ReplacementSet
+ResourceFunction
+ResourceRolePartyRoleDetails
+Logical Resource ABE.Address ABE
+IPAddress
+IPv4Address
+NetworkAddress
+NetworkAddressSpecification
+PointCode
+Logical Resource ABE.Computing and Software ABE
+Computing and Software ABE.Software Resource and Software ABE
+API
+AtomicInstalledSoftware
+CompositeInstalledSoftware
+ConfigurationFeature
+HostingPlatformRequirement
+InstalledSoftware
+PartyRoleSoftwareLicenseDetails
+PartyRoleUsesProcessesDetails
+RunningSoftwareStatistic
+SoftConnectionPoint
+SoftwareResource
+Logical Resource ABE.Converged Network ABE
+ForwardingRelationshipEncapsulation
+FreConnectionless
+FreControlPlane
+MultiRouteManagement
+NetworkForwardingDomain
+RoutingParameters
+TerminationPointEncapsulation
+TopologicalLink
+TrafficMappingTable
+TrafficMappingTableRow
+Logical Resource ABE.Management Information ABE
+Management Information ABE.Accounting ABE
+AccountingInfo
+Management Information ABE.Management Method ABE
+CLIMethod
+DescribedMgmtInfoDetails
+ManagementMethodEntity
+ProprietaryMethod
+RMONMethod
+SNMPMethod
+SupportedMgmtMethodDetail
+TL1Method
+Management Information ABE.Performance Info ABE
+PerformanceInfo
+Management Information ABE.Resource State ABE
+ResourceStateInfo
+Management Information ABE.Resource Statistical ABE
+ResourceStatisticalInfo
+Management Information ABE.Security ABE
+AuditingEntity
+AuthenticationEntity
+AuthorizationEntity
+SecurityInfo
+Management Information ABE.Service State ABE
+ServiceStateInfo
+Management Information ABE.Service Statistical Info ABE
+ServiceStatisticalInfo
+Logical Resource ABE.Protocol Service ABE
+Protocol
+Protocol Service ABE.Bridging Protocols ABE
+BridgingProtocol
+RSRBridging
+SRBridging
+SRTBridging
+TransparentBridging
+Protocol Service ABE.LAN Protocols ABE
+Ethernet
+FDDI
+LANProtocol
+TokenRing
+Protocol Service ABE.Management Protocols ABE
+ManagementProtocol
+ProprietaryVendorProtocol
+SNMP
+Protocol Service ABE.Routed Protocols ABE
+AppleTalk
+DecNET
+IP
+IPX
+RoutedProtocol
+Protocol Service ABE.Routing Protocols ABE
+BGP
+DistanceVectorRoutingProtocol
+EIGRP
+HybridRoutingProtocol
+IGRP
+IS_IS
+LinkStateRoutingProtocol
+OSPF
+PathVectorRoutingProtocol
+RIP
+RoutingProtocol
+Protocol Service ABE.Signaling Protocols ABE
+COPS
+RSVP
+SignalingProtocol
+Protocol Service ABE.Switching Protocols ABE
+MPLS
+SwitchingProtocol
+Protocol Service ABE.WAN Protocols ABE
+ATM
+FrameRelay
+HDLC
+ISDN
+PPP
+SLIP
+SMDS
+WANProtocol
+X25
+Logical Resource ABE.Resource Number ABE
+ResourceNumber
+ResourceNumberSpecification
+Logical Resource ABE.Statistics ABE
+StatisticalEntity
+Logical Resource ABE.TIP Logical Resource ABE
+TIP Logical Resource ABE.Network Resource Fulfillment ABE
+ManagedElement
+TransmissionDescriptor
+Resource ABE.Physical Resource ABE
+ElectronicConnectionPoint
+PhysicalBlackBox
+PhysicalLink
+PhysicalResource
+SoftwareSupportPackage
+Physical Resource ABE.Auxiliary Component ABE
+AuxiliaryComponent
+CoolingDevice
+Fan
+PowerSupply
+Physical Resource ABE.Equipment ABE
+Card
+CardOnCardDetails
+Equipment
+MemoryCard
+NetworkCard
+SystemCard
+UnknownCard
+Physical Resource ABE.Equipment Holder ABE
+EquipmentHolder
+Equipment Holder ABE.HolderAtomic ABE
+AdjacentSlotDetails
+HolderAtomic
+Slot
+Equipment Holder ABE.HolderComposite ABE
+Bay
+Chassis
+ChassisPosition
+HolderComposite
+Rack
+SecureHolder
+Shelf
+Physical Resource ABE.Hardware ABE
+Cable
+Hardware
+ManagedHardware
+PhysicalConnector
+PhysicalContainer
+PhysicalPort
+Physical Resource ABE.Physical Capacity ABE
+PhysicalCapacity
+PhysicalCapacityDetails
+PhysicalMemoryCapacity
+PowerCapacity
+Physical Resource ABE.Physical Component ABE
+ASIC
+Backplane
+Chip
+FlashDisk
+MemoryComponent
+PhysicalComponent
+Physical Resource ABE.Physical Device ABE
+PhysicalDevice
+PhysicalDeviceAtomic
+PhysicalDeviceComposite
+Physical Resource ABE.Physical Role ABE
+PhysicalResourceRole
+Resource ABE.ResourceRole System View ABE
+ResourceRoleDetails
+Resource ABE.TIP Resource ABE
+TIP Resource ABE.Network Resource Assurance ABE
+TIP Resource ABE.Network Resource Basic ABE
+CommonResourceInfo
+Resource Domain.Resource Configuration ABE
+ResourceConfigSpec
+ResourceConfiguration
+Resource Domain.Resource Order ABE
+ResourceOrder
+ResourceOrderItem
+Resource Order ABE.Resource Number Portability ABE
+NumberPortabilityPolicyRule
+NumberPortabilityRequest
+NumberPortInRequest
+NumberPortOutRequest
+NumberPortOverRequest
+NumberRetirementRequest
+PortabilityRequestPolicyRule
+Resource Order ABE.Resource Number Portability Role ABE
+NumberPortabilityClearinghouse
+NumberPortabilityRole
+Resource Domain.Resource Usage ABE
+ResourceUsage
+ResourceUsageSpec
+Resource Domain.Resource Test ABE
+ResourceTest
+ResourceTestSpec
+Resource Domain.Resource Trouble ABE
+Resource Trouble ABE.Alarm ABE
+CrossedThreshold
+ResourceAlarm
+Resource Trouble ABE.Alarm Severity Assignment Profile ABE
+AlarmSeverityAssignmentProfile
+Resource Domain.Resource Performance ABE
+ResourcePerformance
+ResourcePerformanceSpec
+Resource Domain.Stock Item ABE
+ResourceFromStockItemChoice
+ShipmentCheckPoint
+ShipmentTracking
+StockItem
+StockItemCharacteristic
+StockItemCharUse
+StockItemCharValue
+StockItemCharValueUse
+StockItemRequest
+StockItemShipment
+StockItemShipmentItem
+StockItemStockLevel
+StockLocation
+Resource Domain.Resource Capacity ABE
+ResourceCapacity
+ResourceCapacityDemand
+Resource Domain.Resource Topology ABE
+Resource Domain.Resource Strategy & Plan ABE
+Business Partner Domain.Business Partner Party Roles ABE
+Partner
+ShippingCarrier
+Supplier
+Business Partner Domain.Party Interaction ABE
+InquiryRequest
+InquiryResponse
+PartyBillingInquiry
+PartyDisputedAmount
+PartyInquiry
+PartyInvoiceInquiry
+PartyQuote
+Business Partner Domain.Party Problem ABE
+ClosePartyProblemSummary
+KnownProblemDescription
+PartyProblem
+PartyProblemTask
+PartyProblemWorkaround
+Business Partner Domain.Party Product Specification and Offering ABE
+Party Product Specification and Offering ABE.Party Role Product Offering ABE
+PartyRoleProdOffRelationship
+PartyRoleProductOffering
+Party Product Specification and Offering ABE.Party Role Product Specification ABE
+PartyRoleProdSpecRelationship
+PartyRoleProductSpecification
+Business Partner Domain.Business Partner Account ABE
+BusinessPartnerAccount
+BusinessPartnerAccountAssignment
+Business Partner Domain.Business Partner Product Order ABE
+BusinessPartnerProductOrder
+BusinessPartnerProductOrderItem
+Business Partner Domain.Party Bill Collection ABE
+Party Bill Collection ABE.Business Partner Payment ABE
+BusinessPartnerPayment
+BusinessPartnerPaymentItem
+Party Bill Collection ABE.Dunning ABE
+DunningCase
+DunningCaseRule
+DunningNotification
+DunningRule
+DunningScenario
+DunningWriteOff
+HardDunning
+SoftDunning
+Business Partner Domain.Party Revenue & Settlement ABE
+Party Revenue & Settlement ABE.Party Settlement ABE
+PartySettlement
+PartySettlementPayment
+PartySettlementRelationship
+PartySettlementRole
+PartySettlementSpecification
+PartySettlementSpecRelationship
+PartySettlementSpecVersion
+Party Revenue & Settlement ABE.Party Revenue Sharing ABE
+Party Revenue Sharing ABE.Party Revenue Share ABE
+AggregateRevShareProdOffer
+AggregateRevShareProdOfferItem
+ComponentRevShareProdOffer
+ComponentRevShareProdOfferItem
+PartyRevenueShare
+PartyRevenueShareAdjustment
+PartyRevenueShareNotification
+PartyRevenueShareProdOffer
+PartyRevenueShareProdOfferItem
+PartyRevenueShareRelationship
+RevenueShareProdOfferRelationship
+Party Revenue Sharing ABE.Party Revenue Share Reconciliation ABE
+PartyRevenueShareReconciliation
+PartyRevShareReconciliationItem
+PartyRevShareReconDiscrepancy
+RevShareReconDiscrepNotification
+Party Revenue Sharing ABE.Party Revenue Sharing Agreement ABE
+PartyRevenueSharingAgreement
+PartyRevenueSharingAgreementItem
+PartyRevShareTermOrCondition
+Party Revenue Sharing ABE.Party Revenue Sharing Model ABE
+PartyRevenueSharingModel
+PartyRevenueSharingModelInvolvement
+PartyRevenueSharingModelSpecification
+RevenueSharingModelRelationship
+RevShareModelSpecNegotiableRange
+Business Partner Domain.Party Statistic ABE
+PartyChurnRetentionStatistic
+Business Partner Domain.Party Strategy & Plan ABE
+Business Partner Domain.Party Service Level Agreement ABE
+PartyServiceLevelAgreement
+Business Partner Domain.Party Bill ABE
+BillingPeriod
+OffCyclePartyBill
+OnCyclePartyBill
+PartyBill
+PartyBillFormat
+PartyBillingCycle
+PartyBillingCycleSpecification
+PartyBillPresentationMedia
+PartyBillSpec
+Party Bill ABE.Party Billing Statistic ABE
+PartyAccountChargeSum
+PartyAccountChargeSumBalance
+PartyAccountChargeSumSpec
+PartyBillingProductChargeSum
+PartyBillingProductChargeSumBalance
+PartyBillingProductChargeSumSpec
+PartyBillingStatistic
+PartyBillingStatisticBalance
+PartyBillingStatisticSpec
+UsageCharacteristicSum
+UsageCharacteristicSumBalance
+UsageCharacteristicSumSpec
+Business Partner Domain.Applied Party Billing Rate ABE
+AppliedPartyBillingCharge
+AppliedPartyBillingCredit
+AppliedPartyBillingDiscount
+AppliedPartyBillingProductAlteration
+AppliedPartyBillingProductCharge
+AppliedPartyBillingProductUsageRate
+AppliedPartyBillingRate
+AppliedPartyBillingRateSpec
+AppliedPartyBillingRebate
+AppliedPartyBillingTaxRate
+AppliedPartyPenaltyCharge
+AtomicAppliedPartyBillingRate
+CompositeAppliedPartyBillingRate
+PartyFinancialCharge
+Enterprise Domain.Enterprise Party Roles ABE
+ComplementaryProvider
+Regulator
+ServiceProvider
+ServiceProviderEmployee
+ThirdPartyServiceProvider
+Enterprise Domain.Workforce ABE
+Workforce ABE.Employee Pay ABE
+EmployeePay
+EmployeePayComponent
+PayComponentSpecification
+PayGrade
+PayGroup
+PayRange
+PayRollAgency
+PaySpecification
+Workforce ABE.Work Specification ABE
+WorkSpecFulfillmentRate
+WorkSpecification
+WorkSpecificationCost
+WorkSpecificationRole
+WorkSpecificationType
+WorkSpecificationVersion
+WorkSpecRelationship
+Workforce ABE.Workforce Resource ABE
+WorkforceEmployeePool
+WorkforceEmployeePoolAssignment
+WorkforceEmployeeRole
+WorkforceOrganizationRole
+WorkforcePoolAssignment
+WorkforceResourcePool
+WorkforceResourcePoolAssignment
+WorkforceResourceRole
+WorkforceResourceTool
+Workforce Resource ABE.Work ABE
+Work
+WorkRole
+Workforce ABE.Workforce Schedule ABE
+WorkforceEmployeeAssignment
+WorkforceEmployeeReservation
+WorkforceResourceAssignment
+WorkforceResourceReservation
+WorkSchedule
+Enterprise Domain.Enterprise Risk ABE
+Enterprise Risk ABE.Revenue Assurance ABE
+Revenue Assurance ABE.RA Action_Response ABE
+RevenueAssuranceAction
+RevenueAssuranceActionSpec
+RevenueAssuranceResponse
+RevenueAssuranceResponseSpec
+Revenue Assurance ABE.RA Assessment ABE
+RevenueAssuranceAssessment
+RevenueAssuranceAssessmentItem
+RevenueAssuranceAssessmentResult
+RevenueAssuranceRecommendation
+RevenueAssuranceTrend
+Revenue Assurance ABE.RA Control ABE
+RevenueAssuranceApplicability
+RevenueAssuranceConsequence
+RevenueAssuranceControl
+RevenueAssuranceControlConsequence
+RevenueAssuranceObjective
+RevenueAssuranceParameter
+RevenueAssuranceParmValue
+Revenue Assurance ABE.RA Key Performance Indicator ABE
+RevenueAssuranceKPI
+RevenueAssuranceKPIConsequence
+Revenue Assurance ABE.RA Trouble Ticket ABE
+RevenueAssuranceTroubleTicket
+RevenueAssuranceTroubleTicketSpec
+Revenue Assurance ABE.RA Violation ABE
+RevenueAssuranceViolation
+RevenueAssuranceViolationSpec
+Enterprise Risk ABE.Enterprise Security ABE
+Enterprise Security ABE.Security Entity ABE
+CommonPlatformEnumeration
+PartyRoleSecurityEntity
+PartySecurityEntity
+ResourceSecurityEntity
+SecurityEntity
+Enterprise Security ABE.Security Event ABE
+AnomalySecurityEvent
+AuditRecordSecurityEvent
+DHCPSecurityEvent
+NACSecurityEvent
+NACSecurityEventSubject
+NATSecurityEvent
+NetFlowSecurityEvent
+SecurityEvent
+SecurityEventCollectionMethod
+SecurityEventEndpoint
+SecurityEventSpecification
+SecurityEventSpecificationType
+SecuritySignature
+SignatureSecurityEvent
+Enterprise Security ABE.Security Incident ABE
+SecurityIncident
+SecurityIncidentAssessment
+SecurityIncidentAttachment
+SecurityIncidentAttackMethod
+SecurityIncidentHistory
+SecurityIncidentImpact
+SecurityIncidentImpactLevel
+SecurityIncidentOperationalImpactLevel
+SecurityIncidentRelatedParty
+SecurityIncidentTechnicalImpactLevel
+Enterprise Security ABE.Security Threat ABE
+PartyRoleSecurityThreatActor
+PartySecurityThreatActor
+SecurityThreat
+SecurityThreatActor
+SecurityThreatExploit
+SecurityThreatIndicator
+SecurityThreatIndicatorSpecification
+Security Threat ABE.Security Threat Technique ABE
+EmailSecurityThreatTechnique
+PKISecurityThreatTechnique
+PublicKeyInfrastructureCertificate
+SecurityThreatTechnique
+SecurityThreatTechniqueSpecification
+SQL
+SQLSecurityThreatTechnique
+Security Threat ABE.Security Threat Tool ABE
+Botnet
+BotnetSecurityThreatTool
+P2PFile
+P2PFileSharing
+P2PFileSharingSecurityThreatTool
+SecurityThreatTool
+SecurityThreatToolSpecification
+Tor
+TorSecurityThreatTool
+Enterprise Security ABE.Security Vulnerability ABE
+CommonWeaknessEnumeration
+Patch
+SecurityVulnerability
+SecurityVulnerabilityCategoryAssignment
+SecurityVulnerabilityCategoryType
+SecurityVulnerabilityFixAction
+SecurityVulnerabilitySoftware
+SecurityVulnerabilityTool
+Security Vulnerability ABE.Security Vulnerability Score ABE
+AtomicSecurityVulnerabilityMetric
+CompositeSecurityVulnerabilityMetric
+SecurityVulnerabilityMetric
+SecurityVulnerabilityMetricValue
+SecurityVulnerabilityScore
+Security Vulnerability ABE.Security Vulnerability Scoring Definition ABE
+AtomicSecVulScoringMetricDefn
+CompositeSecVulScoringMetricDefn
+SecVulnerabilityMetricValueDefn
+SecVulnerabilityScoringMetricDefn
+SecVulnerabilityScoringMetricDefnAssignment
+SecVulnerabilityScoringSystem
+Security Vulnerability Scoring Definition ABE.Security Vulnerability Scoring Algorithm ABE
+SecVulnerabilityGeneralMbr
+SecVulnerabilityMetricDefnMbr
+SecVulnerabilityMetricValueDefnMbr
+SecVulnerabilityScoreAlgorithm
+SecVulnerabilityScoreAlgorithmMember
+Enterprise Domain.Enterprise Effectiveness ABE
+Enterprise Effectiveness ABE.Business Objective ABE
+AtomicBusinessObjective
+BusinessObjective
+BusinessObjectiveSpecification
+CompositeBusinessObjective
+Enterprise Domain.Finance ABE
+AtomicBudget
+Budget
+CompositeBudget
+FinancialAccount
+Common Domain.Anomaly ABE
+Anomaly
+AnomalyApplicability
+AnomalyCategory
+AnomalyCategoryCharacteristicValue
+AnomalyCategorySpecCharacteristic
+AnomalyCategorySpecCharacteristicValue
+AnomalyCategorySpecCharUse
+AnomalyCategorySpecCharValueUse
+AnomalyCategorySpecification
+AnomalyCharacteristicValue
+AnomalyConsequence
+AnomalyGrouping
+AnomalyGroupingCharateristicValue
+AnomalyGroupingCharateristicValue
+AnomalyGroupingSpecCharacteristic
+AnomalyGroupingSpecCharacteristicValue
+AnomalyGroupingSpecCharUse
+AnomalyGroupingSpecCharValueUse
+AnomalyGroupingSpecification
+AnomalyIndicator
+AnomalyIndicatorSpecification
+AnomalyNotification
+AnomalyOwner
+AnomalyReport
+AnomalySpecCharacteristic
+AnomalySpecCharacteristicValue
+AnomalySpecCharUse
+AnomalySpecCharValueUse
+AnomalySpecification
+AnomalyThresholdRule
+AnomalyThresholdSet
+ProductAnomaly
+ProductAnomalySpecification
+ResourceAnomaly
+ResourceAnomalySpecification
+ServiceAnomaly
+ServiceAnomalySpecification
+Common Domain.Workflow ABE
+Workflow
+WorkflowActivty
+WorkflowBusinessRule
+WorkflowGoal
+WorkflowGroup
+WorkflowPartyRole
+WorkflowPolicy
+WorkflowSpecifiationRelationship
+WorkflowSpecification
+WorkflowTrigger
+WorkflowType
+Common Domain.Goal ABE
+Goal
+GoalApproach
+GoalDirection
+GoalInstrument
+GoalMetric
+GoalModel
+GoalPartyRole
+GoalSpecification
+GoalSpecificationRelationship
+GoalStrategy
+GoalTargetEntityType
+GoalTargetPartRole
+GoalType
+Common Domain.Closed Loop ABE
+ClosedLoop
+ClosedLoopExitBy
+ClosedLoopGoal
+ClosedLoopGroup
+ClosedLoopModel
+ClosedLoopPartyRole
+ClosedLoopPolicy
+ClosedLoopPolicyType
+ClosedLoopPriority
+ClosedLoopRelationship
+ClosedLoopRelationshipSpecification
+ClosedLoopSpecification
+ClosedLoopSpecificationRelationship
+ClosedLoopStartBy
+ClosedLoopType
+Closed Loop ABE.Closed Loop Activity ABE
+ActivityGoal
+ActivityGroup
+ActivityPartyRole
+ActivityPriority
+ActivityType
+ClosedLoopActivity
+ClosedLoopActivitySpecification
+Closed Loop ABE.Business Rule ABE
+BusinessRule
+BusinessRuleActions
+BusinessRuleActionsUnitType
+BusinessRuleArea
+BusinessRuleConstraints
+BusinessRuleGroup
+BusinessRuleManagement
+BusinessRuleManagementSpecification
+BusinessRuleManagementSpecificationGroup
+BusinessRuleManagementSpecificationRelationship
+BusinessRuleOperators
+BusinessRulePartyRole
+BusinessRuleSpecification
+BusinessRuleSpecificationRelationship
+BusinessRuleSpecificationRelationshipCharacteristics
+BusinessRuleTriggerEvent
+BusinessRuleType
+ProcessType
+Common Domain.Intent ABE
+Intent
+IntentReport
+Common Domain.Segmentation ABE
+AtomicSegment
+CompositeSegment
+AtomicSegmentSpecification
+CompositeSegmentSpecification
+SegmentSpecification
+SegmentationSpecification
+CriterionCalculationRule
+Criterion
+CriterionCondition
+CompositeCriterionCondition
+AtomicCriterionCondition
+Segment
+Common Domain.Digital Identity ABE
+Avatar
+BiometricCredential
+ContactMediumCredentialRole
+Credential
+Digitaldentity
+DigitaldentitySupplier
+DongleCredential
+LoginPasswordCredential
+NetworkCredential
+PartyDigitaldentity
+ResourceDigitaldentity
+TokenCredential
+Common Domain.Usage ABE
+ContextUsage
+UsageRelationship
+UsageCharacteristicValue
+Usage
+VoiceCallUsage
+Usage ABE.Usage Spec ABE
+UsageCharacteristicCategory
+UsageSpecCharacteristic
+UsageSpecCharacteristicValue
+UsageSpecCharUse
+UsageSpecCharValueUse
+UsageSpecification
+UsageSpecVersion
+Usage ABE.IP Detail Record ABE
+DOCSISType
+FieldDescriptor
+IPDetailRecord
+IPDR
+IPDRCreationTime
+IPDRDoc
+IPDRDocEnd
+IPDREmailType
+IPDRSPData
+IPDRStreamingMediaType
+IPDRType
+IPDRVoiPType
+IPDRWholeSaleType
+PublicWANAccessUsageEntity
+PublicWLANAccessUsageEntry
+SeqNum
+TemplateBlock
+Common Domain.Test ABE
+TestMeasure
+TestMeasureDefinition
+TestSpecificationRole
+TestSpecification
+Test
+Common Domain.Root Business Entities ABE
+RootEntityTypeAction
+RootEntityRelationship
+RoleSpecification
+EntitySpecificationTypeRelationship
+EntitySpecificationType
+RootEntityType
+ManagementInfo
+EntitySpecification
+EntityRole
+Role
+RootEntity
+ManagementDomain
+ManagedEntity
+Entity
+Collection
+CommonObjectInfo
+Root Business Entities ABE.Association ABE
+Association
+AssociationRole
+AssociationRoleSpecification
+AssociationSpecification
+Root Business Entities ABE.Root Entity Group ABE
+RootEntityGroup
+RootEntityGroupChoice
+RootEntityGroupMember
+RootEntityGroupMemberExpression
+RootEntityGroupRelationship
+Root Business Entities ABE.Entity Specification Action ABE
+EntitySpecificationAction
+EntitySpecificationActionWorkflow
+Root Business Entities ABE.External System Capability ABE
+AssuranceCapabilitySpecification
+BillingCapabilitySpecification
+ChargingCapabilitySpecification
+ExternalSystemCapability
+FulfilmentCapabilitySpecification
+PolicyCapabilitySpecification
+Root Business Entities ABE.Root Entity Attachment ABE
+Attachment
+Root Business Entities ABE.Characteristic ABE
+EntitySpecCharValueUseRelationship
+EntitySpecCharUseRelationship
+RootEntityTypeCharValueUseRelationship
+RootEntityTypeCharUseRelationship
+RootEntityTypeCharValueUse
+RootEntityTypeCharUse
+EntitySpecCharValueUse
+EntitySpecCharUse
+CharacteristicValue
+CharSpecValueRelationship
+CharacteristicSpecRelationship
+CharacteristicSpecValue
+CharacteristicSpecification
+Characteristic ABE.Characteristic Pricing ABE
+CharacteristicPriceDependency
+CharPriceDepMember
+Root Business Entities ABE.Entity Identification ABE
+ComponentEntityIdentification
+ComponentEntityIdentificationSpec
+CompositeEntityIdentification
+CompositeEntityIdentificationSpec
+EntityIdentification
+EntityIdentificationSpecFormat
+EntityIdentificationSpecification
+RootEntityTypeIdentificationSpec
+Common Domain.Project ABE
+ProjectEvent
+Vision
+SimpleProject
+ProjectSpec
+ProjectDeliverableVersion
+ProjectDeliverable
+Project
+CompoundProject
+CompositeVision
+CompositeProjectDeliverable
+AtomicVision
+AtomicProjectDeliverable
+ProjectScope
+WorksProgram
+ProductSpecActivitySpecAllocation
+PartyResource
+Milestone
+Cost
+Project ABE.Project Scope ABE
+eTOMProcessElement
+SIDABE
+TAMApplication
+Project ABE.SCRUM Blade ABE
+SCRUM_BacklogItem
+SCRUM_Impediment
+SCRUM_ProductOwner
+SCRUM_ScrumMaster
+SCRUM_Sprint
+SCRUM_Task
+SCRUM_Team
+SCRUM_WorkingIncrement
+Project ABE.Work Breakdown Structure ABE
+CompoundWBSElement
+CompoundWBSSpec
+SimpleWBSElement
+SimpleWBSSpec
+WBSElement
+WBSElementSpec
+WBSResourceUsage
+Project ABE.Project Role ABE
+ProjectConstructor
+ProjectCustomer
+ProjectManager
+ProjectPartyRole
+ProjectPlanner
+ProjectSponsor
+ProjectTroubleShooter
+Project ABE.Project Resource ABE
+AllocatedProjectResource
+CompoundProjectResourceSpec
+GeneralProjectResourceAllocation
+ProjectResource
+ProjectResourceAllocation
+ProjectResourceConsumptionAllocation
+ProjectResourceHolding
+ProjectResourcePool
+ProjectResourceReservationAllocation
+ProjectResourceSpec
+ResourceParameterUsage
+ResourceSpecCostParameter
+SimpleProjectResourceSpec
+SpecificProjectResourceAllocation
+Project ABE.Project Element ABE
+ProjectElementSpec
+ProjectElementRelationship
+ProjectElement
+Project ABE.Project Calendar ABE
+ProjectCalendar
+ProjectSchedule
+ProjectSpecificWorkCalendar
+SpecialWorkPeriod
+StandardWorkCalendar
+StandardWorkPeriod
+Project ABE.Activity ABE
+ActivityEventEntry
+CompoundActivitySpec
+CompoundActivity
+ActivitySpec
+ActivityResourceUsage
+Activity
+SimpleActivitySpec
+SimpleActivity
+Project ABE.Work Order ABE
+SpecificWOConsumptionFufillment
+SpecificWOFufillment
+SpecificWOUsageFufillment
+WorkOrder
+WorkOrderFulfillment
+WorkOrderItem
+Common Domain.Policy ABE
+Policy ABE.Policy Framework Spec ABE
+PolicyActionSpec
+PolicyConditionSpec
+PolicyEventSpec
+PolicyEventSpecAtomic
+PolicyEventSpecComposite
+PolicyEventSpecType
+PolicyRuleSpec
+PolicySetSpec
+PolicyStatementSpec
+Policy ABE.Policy Management ABE
+ResourceManagementPolicy
+ServiceManagementPolicy
+Policy ABE.Policy Structure ABE
+Policy Structure ABE.Policy Statement ABE
+OperatorConstraintDetails
+PolicyOperator
+PolicyStatement
+Policy Structure ABE.Policy Condition ABE
+PolicyConditionRuleDetails
+PolicyConditionComposite
+PolicyConditionAtomic
+PolicyCondition
+ContainedPolicyConditionDetails
+Policy Structure ABE.Policy Action ABE
+PolicyAction
+PolicyActionAtomic
+PolicyActionComposite
+ContainedPolicyActionDetails
+PolicyActionRuleDetails
+PolicyActionVendor
+Policy Structure ABE.Policy Event ABE
+EventEmitDetails
+EventTriggerDetails
+PolicyEvent
+PolicyEventAtomic
+PolicyEventBase
+PolicyEventComposite
+Policy Structure ABE.Policy Value ABE
+BitStringValue
+BooleanValue
+IntegerValue
+IPAddressValue
+MACAddressValue
+PolicyValue
+StringValue
+ValueConstraintDetails
+ValueCustom
+ValueStandard
+Policy Structure ABE.Policy Variable ABE
+1qCoSVariable
+BitStringVariable
+DNVariable
+DSCPVariable
+EtherTypeVariable
+IPProtocolVariable
+IPToSVariable
+IPv4Variable
+IPv6FlowIDVariable
+IPv6Variable
+IPVersionVariable
+MACVariable
+PolicyConditionTimePeriod
+PolicyConditionVendor
+PolicyVariable
+PortVariable
+StringVariable
+VariableCustom
+VariableStandard
+VLANVariable
+Policy ABE.Policy Framework ABE
+ContainedPolicySetsDetail
+PolicySet
+PolicyRuleBase
+PolicyGroupExecutionDetails
+PolicyGroup
+PolicyDomain
+PolicyAppliesToDetails
+Policy
+PolicyRule
+Policy ABE.Policy Application ABE
+BrokerCoordinationDetails
+PolicyApplication
+PolicyBroker
+PolicyRepository
+ScopedPolicyDetails
+Policy Application ABE.Policy Server ABE
+DecisionRequestedDetails
+PEPDirectionDetails
+PolicyActionPerformedDetails
+PolicyDecisionPoint
+PolicyEnforcementPoint
+PolicyExecutionPoint
+PolicyServer
+PXPDirectionDetails
+PXPEnforcementDetails
+Policy Application ABE.PolicyApp Role ABE
+PolicyApplicationRole
+PolicyBrokerRole
+PolicyConfigActionRole
+PolicyConfigDecisionRole
+PolicyConfigRole
+PolicyConfigValidationRole
+PolicyServerRole
+Common Domain.Performance ABE
+PerformanceIndicatorGroup
+PerformanceMobileAddress
+PerformanceIndicatorRelationship
+ConsequencePerformanceNotification
+PerformancePointCode
+PerformanceIPAddress
+PerformanceNetworkAddress
+PerformanceNotification
+PerformanceCharacteristicValue
+Performance
+PerformanceIndicator
+Performance ABE.Performance Monitoring ABE
+MeasurementJob
+MonitoredClassCriteria
+MonitoredInstancesCriteria
+MonitoredObjectsCriteria
+Performance Monitoring ABE.Performance Collection ABE
+AdhocCollection
+MeasurementCollectionJob
+Performance Monitoring ABE.Performance Production ABE
+MeasurementProductionJob
+Performance ABE.Performance Threshold ABE
+MeasurementThresholdJob
+PerformanceAlarmSpecification
+PerformanceApplicability
+PerformanceConsequence
+PerformanceThreshold
+PerformanceThresholdApplicability
+PerformanceThresholdApplicabilityConsequence
+PerformanceThresholdRule
+PerformanceThresholdRuleDefinition
+PerformanceThresholdRulePreDefined
+PerformanceThresholdRulePreDefinedParam
+Performance ABE.Performance Specification ABE
+PerformanceIndicatorGroupSpecification
+PerformanceSpecificationInterval
+ConsequencePerformanceNotificationSpec
+PerformanceNotificationSpecification
+PerformanceIndicatorDerivationParameter
+PerformanceIndicatorSpecRelationship
+PerformanceSpecIntervalConversion
+PerformanceIndicatorSpecification
+PerformanceSpecification
+Performance ABE.Performance Category ABE
+PerformanceCatCharacteristicValue
+PerformanceCategory
+PerformanceCategoryRelationship
+Performance Category ABE.Performance Category Specification ABE
+PerformanceCatSpecification
+PerformanceCatSpecRelationship
+Common Domain.Party Privacy ABE
+Party Privacy ABE.Party Privacy Profile ABE
+PartyPrivacyAgreement
+PartyPrivacyProfile
+PartyPrivacyProfileCharValue
+Party Privacy ABE.Party Privacy Profile Type ABE
+PartyPrivacyProfileType
+PartyPrivacyProfileTypeCharacteristic
+PartyPrivacyProfileTypeCharValue
+PrivacyCategory
+PrivacyUsagePurpose
+Common Domain.Party ABE
+PartyRoleAssociation
+PlacePartyRoleAssoc
+PartyCreditProfileReference
+PartyCreditProfile
+AdditionalPartyAttributes
+TaxExemptionCertificate
+PartyRoleCurrency
+Logo
+PartyName
+Party
+OrganizationName
+Organization
+LanguageAbility
+Language
+IndividualName
+Individual
+PartyRole
+PartyRoleSpecification
+PartyRoleCategory
+Party ABE.Permission ABE
+ExplicitPermission
+ImplicitPermission
+ImplicitPermissionSpec
+Permission
+PermissionScope
+PermissionScopePolicyRule
+PermissionScopeSpec
+PermissionScopeSpecPolicyRuleSpec
+PermissionSet
+PermissionSpecSet
+Party ABE.Party Role Group ABE
+PartyRoleGroup
+PartyRoleGroupSpecification
+PRGSpecClub
+PRGSpecFamily
+PRGSpecFriends
+PRGSpecRule
+Party ABE.Currency ABE
+Currency
+CurrencyExchangeRate
+CurrencyName
+CurrencyUnit
+CurrencyUnitName
+Party ABE.Party Organization ABE
+AtomicOrganization
+CompositeOrganization
+OrganizationDecompositionComponent
+OrganizationDecompositionType
+Party ABE.Identification ABE
+BirthCertificateIdentification
+CompanyRegistration
+ContractorIdentification
+DriversLicenseIdentification
+EmployeeIdentification
+IndividualIdentification
+NationalIdentityCardIdentification
+OrganizationIdentification
+PartyIdentification
+PassportIdentification
+SocialSecurityNrIdentification
+Party ABE.Contact Medium ABE
+ContactMedium
+ContactMediumSpecification
+EmailContact
+FaxNumber
+Media
+PostalContact
+TelephoneNumber
+Party ABE.Party Profile ABE
+PartyProfileSpec
+PartyProfile
+Party ABE.Party Demographic ABE
+AtomicPartyDemographic
+CompositePartyDemographic
+DemoCharacteristicValue
+DemographicCharacteristic
+PartyDemographic
+PartyDemographicValue
+Party ABE.Skill ABE
+Skill
+SkillCatalog
+SkillSpecification
+Party ABE.Party Community ABE
+AssetConsumerRole
+AssetConsumption
+AssetProviderRole
+Community
+CommunityAdministrator
+CommunityMember
+Contribution
+ContributionProviderRole
+ContributionReceiverRole
+Common Domain.Metric ABE
+Metric ABE.Metric Best Practices
+Metric ABE.Metric Monitoring ABE
+MetricMeasurementObservation
+MonitoredMetricObjectCriterion
+MonitoredMetricInstanceCriterion
+MonitoredMetricClassCriterion
+Metric Monitoring ABE.Metric Job ABE
+MetricMeasurementJob
+MetricMeasurementProductionJob
+MetricMeasurementThresholdJob
+Metric Monitoring ABE.Metric Collection ABE
+AdhocMetricCollection
+MetricMeasurementCollectionJob
+Metric ABE.Metric Definition ABE
+MetricDefinitionRelationship
+MetDefBusinessValue
+MetricDefinitionInvolvement
+MetricDefinition
+MetricDefinitionHierarchyMember
+MetricDefinitionHierarchy
+MetricDefinitionCategory
+MetDefDescExtension
+Metric Definition ABE.Metric Definition Dimension ABE
+MetricDefDimValueUse
+MetricDefinitionDimensionUse
+MetricDimension
+MetricDimensionValue
+Metric ABE.Metric Measure ABE
+MetricMeasureGroup
+MetricMeasure
+MetricMeasureThresholdRule
+ConsequenceMetricNotification
+MetricMeasureConsequence
+Metric ABE.Metric Definition Measure ABE
+MetricDefMeasureExpression
+MetricDefMeasureGroup
+MetricDefMeasure
+MetricDefinitionDeterminationMethod
+MetricDefinitionMethodArgument
+MetricDefMeasureConsequence
+ConsequenceMetricNotificationSpec
+MetricDefMeasureApplicability
+Metric Definition Measure ABE.Metric Definition Measure Threshold ABE
+MetricDefMeasureThreshConsDependency
+MetricDefMeasureThresholdConsequence
+MetricDefMeasureThresholdRelationship
+MetricDefMeasureThresholdRule
+MetricDefMeasureThresholdSet
+MetricThresholdRuleDefinition
+PreDefinedMetricThresholdRule
+PreDefinedMetricThresholdRuleParam
+Common Domain.Location ABE
+AddressContactMediumRole
+Place
+PlacePhysicalResourceAssoc
+Location ABE.Geographic Place ABE
+AdministrativeArea
+Country
+ExchangeLocation
+ExchangeServiceArea
+GeographicArea
+GeographicLocation
+GeographicLocationName
+GeographicLocationRelationship
+GeographicLocationType
+GeographicPlace
+GeographicPostcode
+GeographicSite
+GeographicSiteRole
+GeographicState
+Jurisdiction
+LandUseType
+NetworkRoute
+NetworkRouteSection
+Property
+SimpleGeographicLocation
+Street
+StreetName
+StreetSegment
+StreetSegmentGeoAddressRelationship
+Geographic Place ABE.Geographic Address ABE
+AbstractGeographicAddress
+AmericanPropertyAddress
+AustralianPropertyAddress
+AustralianRuralAddress
+GeographicAddress
+GeographicSubAddress
+JapanesePropertyAddress
+LogicalAddress
+PoBoxAddress
+PostalDeliveryAddress
+PropertyAddressAssociation
+PropertySubAddress
+UrbanPropertyAddress
+UrbanPropertySubAddress
+Geographic Place ABE.Symbology ABE
+LineSymbology
+PointSymbology
+SurfaceSymbology
+Symbology
+Location ABE.Local Place ABE
+AbsoluteLocalLocation
+AbsoluteLocalOrientation
+BoundingVolumeRepresentation
+CompoundInternalLocation
+CompoundLocalAddress
+GridLocalLocation
+LinearReferenceSystem
+LocalContinuativeCoordSystem
+LocalContinuativeLocation
+LocalCoordinateSystem
+LocalGeometry
+LocalGridCoordinateSystem
+LocalLineString
+LocalLocation
+LocalLocationRelationship
+LocalPlace
+LocalPoint
+LocalPolygon
+RelativeLocalLocation
+Representation
+SimpleLocalAddress
+SolidRepresentation
+WireFrameRepresentation
+Location ABE.OpenGisSFS ABE
+Curve
+Geometry
+GeometryCollection
+Line
+LinearRing
+LineString
+MultiCurve
+MultiLineString
+MultiPoint
+MultiPolygon
+MultiSurface
+Point
+Polygon
+SpatialReferenceSystem
+Surface
+Common Domain.Configuration and Profiling ABE
+ConfigSpecCharUse
+CompAtomicConfigSpecRel
+ConfigSpecConstraintMember
+ConfigurationSpecConstraint
+ConfigRelationship
+ConfigSpecRelationship
+Configuration
+ConfigurationSpecification
+Configuration and Profiling ABE.Configuration Model Instances
+Common Domain.Communication Interaction ABE
+CommunicationInteractionItem
+CommunicationInteraction
+Email
+TVAdvertising
+CommunicationInteractionMeans
+CommunicationInteractionAction
+CommunicationInteractionResult
+CommunicationInteractionUseCase
+CommunicationInteractionRole
+MMS
+SMS
+PhoneCall
+FaceToFace
+Mail
+Common Domain.Catalog ABE
+CatalogSpecificationRelationship
+CatalogSpecification
+Catalog
+Catalog ABE.Entity Catalog ABE
+CatalogRelationship
+EntityCatalog
+EntityCatalogItem
+EntityCatalogSpecification
+FederatedCatalog
+FederatedCatalogSpecification
+Common Domain.Capacity ABE
+CapacityDemandRelationship
+CapacityRelationship
+ApplicableTimePeriod
+CapacityDemand
+AppliedCapacityDemand
+CapacityAmount
+Capacity
+Common Domain.Calendar ABE
+CalendarEntryParticipation
+CalendarEntryAssociation
+TimeZoneRule
+TimeZone
+TemporalExpression
+SingleAttendee
+SimpleTemporalExpression
+SimpleCalendar
+RelativeCalendarAlarm
+RecurrenceTemporalExpression
+EventType
+CompoundCalendar
+CalendarToDo
+CalendarPartyRole
+CalendarJournalEntry
+CalendarEvent
+CalendarEntryOrganizer
+CalendarEntryCategory
+CalendarEntryAttendee
+CalendarEntryAttendance
+CalendarEntry
+CalendarAlarm
+CalendarActionEntry
+Calendar
+AttendeeGroup
+AbsoluteCalendarAlarm
+Appointment
+Calendar ABE.Schedule Definition ABE
+DateScheduleDefinition
+FixedScheduleDefinition
+FixedScheduleItem
+MonthlyScheduleDayOfMonthDefinition
+MonthlyScheduleDayOfWeekDefinition
+RecurringScheduleDefinition
+ScheduledDuration
+ScheduleDefinition
+ScheduleDefinitionExcludedDates
+WeeklyScheduleDefinition
+Common Domain.Business Interaction ABE
+BusinessInteractionItemPrice
+BusinessInteractionLocation
+BusinessInteractionItemRelationship
+BusinessPartnerAccountInteractionRole
+BusinessInteractionSpec
+BusinessInteractionVersion
+CustomerBillingAccountInteractionRole
+ResourceInteractionRole
+PartyInteractionRole
+BusinessInteractionType
+Response
+Request
+Notification
+BusinessInteractionRelationship
+BusinessInteractionItem
+BusinessInteractionRole
+BusinessInteraction
+InquiryResponse
+InquiryRequest
+Command
+Business Interaction ABE.Disputed Amount ABE
+DAAAccepted
+DAACompleted
+DAACancelled
+DAARejected
+DAACreated
+DisputedAmount
+DisputedAmountActivity
+Common Domain.Base Types ABE
+Common Domain.Agreement ABE
+ServiceLevelAgreement
+AgreementTermOrCondition
+ServiceLevelAgreementItem
+AgreementAuthorization
+AgreementApproval
+AgreementItem
+Agreement
+Agreement ABE.Commitment ABE
+Commitment
+CommitmentApproverRole
+CommitmentFulfilmentRole
+CommitmentProcurementRole
+CommitmentTermOrCondition
+Common Domain.Account ABE
+AccountRelationship
+Account
+AccountCurrency
+AccountContact
+AccountBalance
+AccountBalanceType
+Common Domain.Party Payment ABE
+PaymentPlanPaymentMethod
+ThirdPartyPaymentAgency
+PaymentPlan
+PartyPayment
+Party Payment ABE.Payment Method ABE
+AccountBalancePM
+BankCardPM
+CashPM
+CheckPM
+CreditCardPM
+DebitCardPM
+DigitalWalletPM
+LoyaltyBurnPM
+PaymentMethod
+PaymentMethodSpecification
+ThirdPartyCollectionPM
+Party Payment ABE.Bank ABE
+Bank
+BankAccount

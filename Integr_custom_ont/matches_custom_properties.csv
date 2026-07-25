@@ -1,0 +1,9 @@
+custom_item,db_item,score
+hasColumn,hasColumn,100
+usesProcedure,usesProcedure,100
+usesTable,usesTable,100
+hasColumn,has,1.0
+hasColumn,hasTable,0.5
+usesProcedure,usesTable,0.5
+usesTable,hasTable,0.5
+usesTable,usesProcedure,0.5

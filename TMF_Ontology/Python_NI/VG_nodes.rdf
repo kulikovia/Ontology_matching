@@ -1,0 +1,49 @@
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Assurance -->
+
+<owl:NamedIndividual rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Assurance">
+<rdf:type rdf:resource = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VerticalGroup"/>
+<rdf:label>Assurance</rdf:label>
+</owl:NamedIndividual>
+
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Billing -->
+
+<owl:NamedIndividual rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Billing">
+<rdf:type rdf:resource = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VerticalGroup"/>
+<rdf:label>Billing</rdf:label>
+</owl:NamedIndividual>
+
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Business Value Development -->
+
+<owl:NamedIndividual rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Business Value Development">
+<rdf:type rdf:resource = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VerticalGroup"/>
+<rdf:label>Business Value Development</rdf:label>
+</owl:NamedIndividual>
+
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Capability Management -->
+
+<owl:NamedIndividual rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Capability Management">
+<rdf:type rdf:resource = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VerticalGroup"/>
+<rdf:label>Capability Management</rdf:label>
+</owl:NamedIndividual>
+
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Fulfillment -->
+
+<owl:NamedIndividual rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Fulfillment">
+<rdf:type rdf:resource = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VerticalGroup"/>
+<rdf:label>Fulfillment</rdf:label>
+</owl:NamedIndividual>
+
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Operations Readiness & Support -->
+
+<owl:NamedIndividual rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Operations Readiness & Support">
+<rdf:type rdf:resource = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VerticalGroup"/>
+<rdf:label>Operations Readiness & Support</rdf:label>
+</owl:NamedIndividual>
+
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Strategy Management -->
+
+<owl:NamedIndividual rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VG.Strategy Management">
+<rdf:type rdf:resource = "http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VerticalGroup"/>
+<rdf:label>Strategy Management</rdf:label>
+</owl:NamedIndividual>
+

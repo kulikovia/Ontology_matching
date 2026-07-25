@@ -1,0 +1,8 @@
+property
+has
+hasTable
+hasColumn
+isIdentifiedBy
+references
+length
+scale

@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1/"
+     xml:base="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:InformationModel_v1="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#hasOrigin -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#hasOrigin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#hasStereotype -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#hasStereotype"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#hasABE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#hasABE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#TMFDomain"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#ABE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#hasAttribute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#hasAttribute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#BE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#Attribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#hasBE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#hasBE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#ABE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#BE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#hasDomain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#hasDomain">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#ABE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#TMFDomain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#ABE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#ABE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#TMFDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#Attribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#Attribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#TMFDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#BE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#BE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#TMFDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#TMFDomain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/InformationModel_v1#TMFDomain"/>
+	
+	
+	<!-- List of TMF entries -->
+	
+	
+	
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

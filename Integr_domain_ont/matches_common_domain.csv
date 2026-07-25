@@ -1,0 +1,772 @@
+common_item,domain_item,score
+Service,Service,100
+AccessPoint,Point,1.0
+AudioService,Service,1.0
+CellularUserEquipment,Equipment,1.0
+FileTransferService,Service,1.0
+LiFiAccessPoint,Point,1.0
+LiFiAssociation,Association,1.0
+LiFiUserEquipment,Equipment,1.0
+LTEAssociation,Association,1.0
+SatelliteAssociation,Association,1.0
+Service,Service,1.0
+UserEquipment,Equipment,1.0
+VideoService,Service,1.0
+WiFiAccessPoint,Point,1.0
+WiFiAssociation,Association,1.0
+WiFiUserEquipment,Equipment,1.0
+WirelessAssociation,Association,1.0
+AccessPoint,ConnectionPoint,0.5
+AccessPoint,PointCode,0.5
+AccessPoint,PointSymbology,0.5
+AccessPoint,LocalPoint,0.5
+AccessPoint,MultiPoint,0.5
+Action,LoyaltyAction,0.5
+Action,PolicyAction,0.5
+AudioService,ServiceDesigner,0.5
+AudioService,ServiceSpecification,0.5
+AudioService,ServiceCandidate,0.5
+AudioService,ServiceCatalog,0.5
+AudioService,ServiceRelationship,0.5
+AudioService,ServiceRole,0.5
+AudioService,ServicePackage,0.5
+AudioService,ServiceBundle,0.5
+AudioService,ServiceConfiguration,0.5
+AudioService,ServiceOrder,0.5
+AudioService,ServiceUsage,0.5
+AudioService,ServiceTest,0.5
+AudioService,ServicePerformance,0.5
+AudioService,ServiceCapacity,0.5
+AudioService,ServiceProblem,0.5
+AudioService,ServiceDefinition,0.5
+AudioService,ServiceTemplate,0.5
+AudioService,ServiceProvider,0.5
+AudioService,ServiceAnomaly,0.5
+CellularUserEquipment,ProductUser,0.5
+CellularUserEquipment,EquipmentHolder,0.5
+Device,CoolingDevice,0.5
+Device,PhysicalDevice,0.5
+FileTransferService,ServiceDesigner,0.5
+FileTransferService,ServiceSpecification,0.5
+FileTransferService,ServiceCandidate,0.5
+FileTransferService,ServiceCatalog,0.5
+FileTransferService,ServiceRelationship,0.5
+FileTransferService,ServiceRole,0.5
+FileTransferService,ServicePackage,0.5
+FileTransferService,ServiceBundle,0.5
+FileTransferService,ServiceConfiguration,0.5
+FileTransferService,ServiceOrder,0.5
+FileTransferService,ServiceUsage,0.5
+FileTransferService,ServiceTest,0.5
+FileTransferService,ServicePerformance,0.5
+FileTransferService,ServiceCapacity,0.5
+FileTransferService,ServiceProblem,0.5
+FileTransferService,ServiceDefinition,0.5
+FileTransferService,ServiceTemplate,0.5
+FileTransferService,ServiceProvider,0.5
+FileTransferService,P2PFile,0.5
+FileTransferService,ServiceAnomaly,0.5
+LiFiAccessPoint,ConnectionPoint,0.5
+LiFiAccessPoint,PointCode,0.5
+LiFiAccessPoint,PointSymbology,0.5
+LiFiAccessPoint,LocalPoint,0.5
+LiFiAccessPoint,MultiPoint,0.5
+LiFiAssociation,AssociationRole,0.5
+LiFiAssociation,AssociationSpecification,0.5
+LiFiUserEquipment,ProductUser,0.5
+LiFiUserEquipment,EquipmentHolder,0.5
+Link,TopologicalLink,0.5
+Link,PhysicalLink,0.5
+LTEAssociation,AssociationRole,0.5
+LTEAssociation,AssociationSpecification,0.5
+PhysicalInfrastructure,PhysicalLink,0.5
+PhysicalInfrastructure,PhysicalResource,0.5
+PhysicalInfrastructure,PhysicalConnector,0.5
+PhysicalInfrastructure,PhysicalContainer,0.5
+PhysicalInfrastructure,PhysicalPort,0.5
+PhysicalInfrastructure,PhysicalCapacity,0.5
+PhysicalInfrastructure,PhysicalComponent,0.5
+PhysicalInfrastructure,PhysicalDevice,0.5
+SatelliteAssociation,AssociationRole,0.5
+SatelliteAssociation,AssociationSpecification,0.5
+SatelliteRelayStation,FrameRelay,0.5
+Service,ServiceDesigner,0.5
+Service,ServiceSpecification,0.5
+Service,ServiceCandidate,0.5
+Service,ServiceCatalog,0.5
+Service,ServiceRelationship,0.5
+Service,ServiceRole,0.5
+Service,ServicePackage,0.5
+Service,ServiceBundle,0.5
+Service,ServiceConfiguration,0.5
+Service,ServiceOrder,0.5
+Service,ServiceUsage,0.5
+Service,ServiceTest,0.5
+Service,ServicePerformance,0.5
+Service,ServiceCapacity,0.5
+Service,ServiceProblem,0.5
+Service,ServiceDefinition,0.5
+Service,ServiceTemplate,0.5
+Service,ServiceProvider,0.5
+Service,ServiceAnomaly,0.5
+SystemDevice,CoolingDevice,0.5
+SystemDevice,SystemCard,0.5
+SystemDevice,PhysicalDevice,0.5
+User,ProductUser,0.5
+UserDevice,ProductUser,0.5
+UserDevice,CoolingDevice,0.5
+UserDevice,PhysicalDevice,0.5
+UserDeviceStatus,ProductUser,0.5
+UserDeviceStatus,CoolingDevice,0.5
+UserDeviceStatus,PhysicalDevice,0.5
+UserEquipment,ProductUser,0.5
+UserEquipment,EquipmentHolder,0.5
+VideoService,ServiceDesigner,0.5
+VideoService,ServiceSpecification,0.5
+VideoService,ServiceCandidate,0.5
+VideoService,ServiceCatalog,0.5
+VideoService,ServiceRelationship,0.5
+VideoService,ServiceRole,0.5
+VideoService,ServicePackage,0.5
+VideoService,ServiceBundle,0.5
+VideoService,ServiceConfiguration,0.5
+VideoService,ServiceOrder,0.5
+VideoService,ServiceUsage,0.5
+VideoService,ServiceTest,0.5
+VideoService,ServicePerformance,0.5
+VideoService,ServiceCapacity,0.5
+VideoService,ServiceProblem,0.5
+VideoService,ServiceDefinition,0.5
+VideoService,ServiceTemplate,0.5
+VideoService,ServiceProvider,0.5
+VideoService,ServiceAnomaly,0.5
+WiFiAccessPoint,ConnectionPoint,0.5
+WiFiAccessPoint,PointCode,0.5
+WiFiAccessPoint,PointSymbology,0.5
+WiFiAccessPoint,LocalPoint,0.5
+WiFiAccessPoint,MultiPoint,0.5
+WiFiAssociation,AssociationRole,0.5
+WiFiAssociation,AssociationSpecification,0.5
+WiFiUserEquipment,ProductUser,0.5
+WiFiUserEquipment,EquipmentHolder,0.5
+WiredLink,TopologicalLink,0.5
+WiredLink,PhysicalLink,0.5
+WirelessAssociation,AssociationRole,0.5
+WirelessAssociation,AssociationSpecification,0.5
+AccessPoint,LoyaltyExecutionPoint,0.3333333333333333
+AccessPoint,ServiceAccessPoint,0.3333333333333333
+AccessPoint,ServiceAccessPoint,0.3333333333333333
+AccessPoint,ConnectionPointSpec,0.3333333333333333
+AccessPoint,SoftConnectionPoint,0.3333333333333333
+AccessPoint,TerminationPointEncapsulation,0.3333333333333333
+AccessPoint,ElectronicConnectionPoint,0.3333333333333333
+AccessPoint,ShipmentCheckPoint,0.3333333333333333
+AccessPoint,PolicyDecisionPoint,0.3333333333333333
+AccessPoint,PolicyEnforcementPoint,0.3333333333333333
+AccessPoint,PolicyExecutionPoint,0.3333333333333333
+AccessPoint,PerformancePointCode,0.3333333333333333
+Action,AllowedProductAction,0.3333333333333333
+Action,ProductActionType,0.3333333333333333
+Action,RevenueAssuranceAction,0.3333333333333333
+Action,EntitySpecificationAction,0.3333333333333333
+Action,PolicyActionSpec,0.3333333333333333
+Action,PolicyActionAtomic,0.3333333333333333
+Action,PolicyActionComposite,0.3333333333333333
+Action,PolicyActionVendor,0.3333333333333333
+Action,CommunicationInteractionAction,0.3333333333333333
+Action,CalendarActionEntry,0.3333333333333333
+AudioService,CustomerServiceRepresentative,0.3333333333333333
+AudioService,ServiceSpecCharacteristic,0.3333333333333333
+AudioService,ServiceSpecificationRole,0.3333333333333333
+AudioService,ServiceSpecificationType,0.3333333333333333
+AudioService,ServiceSpecRelationship,0.3333333333333333
+AudioService,ServiceSpecVersion,0.3333333333333333
+AudioService,ServicePackageSpec,0.3333333333333333
+AudioService,ServiceBundleSpec,0.3333333333333333
+AudioService,ServiceCatalogSpecification,0.3333333333333333
+AudioService,AdministerServiceDetails,0.3333333333333333
+AudioService,OwnsServiceDetails,0.3333333333333333
+AudioService,ServiceCharacteristicValue,0.3333333333333333
+AudioService,ServicePlaceDetails,0.3333333333333333
+AudioService,CustomerFacingService,0.3333333333333333
+AudioService,ProtocolServiceDetails,0.3333333333333333
+AudioService,ResourceFacingService,0.3333333333333333
+AudioService,ServiceConfigSpec,0.3333333333333333
+AudioService,ServiceOrderItem,0.3333333333333333
+AudioService,ServiceUsageSpec,0.3333333333333333
+AudioService,ServiceTestSpec,0.3333333333333333
+AudioService,ServiceLevelObjective,0.3333333333333333
+AudioService,ServiceLevelSpecification,0.3333333333333333
+AudioService,ServicePerformanceSpec,0.3333333333333333
+AudioService,ServiceCapacityDemand,0.3333333333333333
+AudioService,CommonServiceInfo,0.3333333333333333
+AudioService,ServiceAccessPoint,0.3333333333333333
+AudioService,ServiceStateInfo,0.3333333333333333
+AudioService,ServiceStatisticalInfo,0.3333333333333333
+AudioService,ServiceProviderEmployee,0.3333333333333333
+AudioService,ServiceAnomalySpecification,0.3333333333333333
+AudioService,ServiceManagementPolicy,0.3333333333333333
+AudioService,ExchangeServiceArea,0.3333333333333333
+AudioService,ServiceLevelAgreement,0.3333333333333333
+BaseStation,PolicyEventBase,0.3333333333333333
+BaseStation,PolicyRuleBase,0.3333333333333333
+Device,PhysicalDeviceSpecification,0.3333333333333333
+Device,PhysicalDeviceAtomic,0.3333333333333333
+Device,PhysicalDeviceComposite,0.3333333333333333
+FileTransferService,CustomerServiceRepresentative,0.3333333333333333
+FileTransferService,ServiceSpecCharacteristic,0.3333333333333333
+FileTransferService,ServiceSpecificationRole,0.3333333333333333
+FileTransferService,ServiceSpecificationType,0.3333333333333333
+FileTransferService,ServiceSpecRelationship,0.3333333333333333
+FileTransferService,ServiceSpecVersion,0.3333333333333333
+FileTransferService,ServicePackageSpec,0.3333333333333333
+FileTransferService,ServiceBundleSpec,0.3333333333333333
+FileTransferService,ServiceCatalogSpecification,0.3333333333333333
+FileTransferService,AdministerServiceDetails,0.3333333333333333
+FileTransferService,OwnsServiceDetails,0.3333333333333333
+FileTransferService,ServiceCharacteristicValue,0.3333333333333333
+FileTransferService,ServicePlaceDetails,0.3333333333333333
+FileTransferService,CustomerFacingService,0.3333333333333333
+FileTransferService,ProtocolServiceDetails,0.3333333333333333
+FileTransferService,ResourceFacingService,0.3333333333333333
+FileTransferService,ServiceConfigSpec,0.3333333333333333
+FileTransferService,ServiceOrderItem,0.3333333333333333
+FileTransferService,ServiceUsageSpec,0.3333333333333333
+FileTransferService,ServiceTestSpec,0.3333333333333333
+FileTransferService,ServiceLevelObjective,0.3333333333333333
+FileTransferService,ServiceLevelSpecification,0.3333333333333333
+FileTransferService,ServicePerformanceSpec,0.3333333333333333
+FileTransferService,ServiceCapacityDemand,0.3333333333333333
+FileTransferService,CommonServiceInfo,0.3333333333333333
+FileTransferService,ServiceAccessPoint,0.3333333333333333
+FileTransferService,ServiceStateInfo,0.3333333333333333
+FileTransferService,ServiceStatisticalInfo,0.3333333333333333
+FileTransferService,ServiceProviderEmployee,0.3333333333333333
+FileTransferService,P2PFileSharing,0.3333333333333333
+FileTransferService,ServiceAnomalySpecification,0.3333333333333333
+FileTransferService,ServiceManagementPolicy,0.3333333333333333
+FileTransferService,ExchangeServiceArea,0.3333333333333333
+FileTransferService,ServiceLevelAgreement,0.3333333333333333
+LiFiAccessPoint,LoyaltyExecutionPoint,0.3333333333333333
+LiFiAccessPoint,ServiceAccessPoint,0.3333333333333333
+LiFiAccessPoint,ServiceAccessPoint,0.3333333333333333
+LiFiAccessPoint,ConnectionPointSpec,0.3333333333333333
+LiFiAccessPoint,SoftConnectionPoint,0.3333333333333333
+LiFiAccessPoint,TerminationPointEncapsulation,0.3333333333333333
+LiFiAccessPoint,ElectronicConnectionPoint,0.3333333333333333
+LiFiAccessPoint,ShipmentCheckPoint,0.3333333333333333
+LiFiAccessPoint,PolicyDecisionPoint,0.3333333333333333
+LiFiAccessPoint,PolicyEnforcementPoint,0.3333333333333333
+LiFiAccessPoint,PolicyExecutionPoint,0.3333333333333333
+LiFiAccessPoint,PerformancePointCode,0.3333333333333333
+LiFiAssociation,AssociationRoleSpecification,0.3333333333333333
+LiFiAssociation,PartyRoleAssociation,0.3333333333333333
+LiFiAssociation,PropertyAddressAssociation,0.3333333333333333
+LiFiAssociation,CalendarEntryAssociation,0.3333333333333333
+LTEAssociation,AssociationRoleSpecification,0.3333333333333333
+LTEAssociation,PartyRoleAssociation,0.3333333333333333
+LTEAssociation,PropertyAddressAssociation,0.3333333333333333
+LTEAssociation,CalendarEntryAssociation,0.3333333333333333
+PhysicalInfrastructure,PhysicalDeviceSpecification,0.3333333333333333
+PhysicalInfrastructure,PhysicalResourceSpec,0.3333333333333333
+PhysicalInfrastructure,PhysicalBlackBox,0.3333333333333333
+PhysicalInfrastructure,PhysicalCapacityDetails,0.3333333333333333
+PhysicalInfrastructure,PhysicalMemoryCapacity,0.3333333333333333
+PhysicalInfrastructure,PhysicalDeviceAtomic,0.3333333333333333
+PhysicalInfrastructure,PhysicalDeviceComposite,0.3333333333333333
+PhysicalInfrastructure,PhysicalResourceRole,0.3333333333333333
+SatelliteAssociation,AssociationRoleSpecification,0.3333333333333333
+SatelliteAssociation,PartyRoleAssociation,0.3333333333333333
+SatelliteAssociation,PropertyAddressAssociation,0.3333333333333333
+SatelliteAssociation,CalendarEntryAssociation,0.3333333333333333
+Service,CustomerServiceRepresentative,0.3333333333333333
+Service,ServiceSpecCharacteristic,0.3333333333333333
+Service,ServiceSpecificationRole,0.3333333333333333
+Service,ServiceSpecificationType,0.3333333333333333
+Service,ServiceSpecRelationship,0.3333333333333333
+Service,ServiceSpecVersion,0.3333333333333333
+Service,ServicePackageSpec,0.3333333333333333
+Service,ServiceBundleSpec,0.3333333333333333
+Service,ServiceCatalogSpecification,0.3333333333333333
+Service,AdministerServiceDetails,0.3333333333333333
+Service,OwnsServiceDetails,0.3333333333333333
+Service,ServiceCharacteristicValue,0.3333333333333333
+Service,ServicePlaceDetails,0.3333333333333333
+Service,CustomerFacingService,0.3333333333333333
+Service,ProtocolServiceDetails,0.3333333333333333
+Service,ResourceFacingService,0.3333333333333333
+Service,ServiceConfigSpec,0.3333333333333333
+Service,ServiceOrderItem,0.3333333333333333
+Service,ServiceUsageSpec,0.3333333333333333
+Service,ServiceTestSpec,0.3333333333333333
+Service,ServiceLevelObjective,0.3333333333333333
+Service,ServiceLevelSpecification,0.3333333333333333
+Service,ServicePerformanceSpec,0.3333333333333333
+Service,ServiceCapacityDemand,0.3333333333333333
+Service,CommonServiceInfo,0.3333333333333333
+Service,ServiceAccessPoint,0.3333333333333333
+Service,ServiceStateInfo,0.3333333333333333
+Service,ServiceStatisticalInfo,0.3333333333333333
+Service,ServiceProviderEmployee,0.3333333333333333
+Service,ServiceAnomalySpecification,0.3333333333333333
+Service,ServiceManagementPolicy,0.3333333333333333
+Service,ExchangeServiceArea,0.3333333333333333
+Service,ServiceLevelAgreement,0.3333333333333333
+SystemDevice,PhysicalDeviceSpecification,0.3333333333333333
+SystemDevice,PhysicalDeviceAtomic,0.3333333333333333
+SystemDevice,PhysicalDeviceComposite,0.3333333333333333
+SystemDevice,ExternalSystemCapability,0.3333333333333333
+SystemDevice,LinearReferenceSystem,0.3333333333333333
+SystemDevice,LocalCoordinateSystem,0.3333333333333333
+SystemDevice,SpatialReferenceSystem,0.3333333333333333
+UserDevice,PhysicalDeviceSpecification,0.3333333333333333
+UserDevice,PhysicalDeviceAtomic,0.3333333333333333
+UserDevice,PhysicalDeviceComposite,0.3333333333333333
+UserDeviceStatus,PhysicalDeviceSpecification,0.3333333333333333
+UserDeviceStatus,PhysicalDeviceAtomic,0.3333333333333333
+UserDeviceStatus,PhysicalDeviceComposite,0.3333333333333333
+VideoService,CustomerServiceRepresentative,0.3333333333333333
+VideoService,ServiceSpecCharacteristic,0.3333333333333333
+VideoService,ServiceSpecificationRole,0.3333333333333333
+VideoService,ServiceSpecificationType,0.3333333333333333
+VideoService,ServiceSpecRelationship,0.3333333333333333
+VideoService,ServiceSpecVersion,0.3333333333333333
+VideoService,ServicePackageSpec,0.3333333333333333
+VideoService,ServiceBundleSpec,0.3333333333333333
+VideoService,ServiceCatalogSpecification,0.3333333333333333
+VideoService,AdministerServiceDetails,0.3333333333333333
+VideoService,OwnsServiceDetails,0.3333333333333333
+VideoService,ServiceCharacteristicValue,0.3333333333333333
+VideoService,ServicePlaceDetails,0.3333333333333333
+VideoService,CustomerFacingService,0.3333333333333333
+VideoService,ProtocolServiceDetails,0.3333333333333333
+VideoService,ResourceFacingService,0.3333333333333333
+VideoService,ServiceConfigSpec,0.3333333333333333
+VideoService,ServiceOrderItem,0.3333333333333333
+VideoService,ServiceUsageSpec,0.3333333333333333
+VideoService,ServiceTestSpec,0.3333333333333333
+VideoService,ServiceLevelObjective,0.3333333333333333
+VideoService,ServiceLevelSpecification,0.3333333333333333
+VideoService,ServicePerformanceSpec,0.3333333333333333
+VideoService,ServiceCapacityDemand,0.3333333333333333
+VideoService,CommonServiceInfo,0.3333333333333333
+VideoService,ServiceAccessPoint,0.3333333333333333
+VideoService,ServiceStateInfo,0.3333333333333333
+VideoService,ServiceStatisticalInfo,0.3333333333333333
+VideoService,ServiceProviderEmployee,0.3333333333333333
+VideoService,ServiceAnomalySpecification,0.3333333333333333
+VideoService,ServiceManagementPolicy,0.3333333333333333
+VideoService,ExchangeServiceArea,0.3333333333333333
+VideoService,ServiceLevelAgreement,0.3333333333333333
+WiFiAccessPoint,LoyaltyExecutionPoint,0.3333333333333333
+WiFiAccessPoint,ServiceAccessPoint,0.3333333333333333
+WiFiAccessPoint,ServiceAccessPoint,0.3333333333333333
+WiFiAccessPoint,ConnectionPointSpec,0.3333333333333333
+WiFiAccessPoint,SoftConnectionPoint,0.3333333333333333
+WiFiAccessPoint,TerminationPointEncapsulation,0.3333333333333333
+WiFiAccessPoint,ElectronicConnectionPoint,0.3333333333333333
+WiFiAccessPoint,ShipmentCheckPoint,0.3333333333333333
+WiFiAccessPoint,PolicyDecisionPoint,0.3333333333333333
+WiFiAccessPoint,PolicyEnforcementPoint,0.3333333333333333
+WiFiAccessPoint,PolicyExecutionPoint,0.3333333333333333
+WiFiAccessPoint,PerformancePointCode,0.3333333333333333
+WiFiAssociation,AssociationRoleSpecification,0.3333333333333333
+WiFiAssociation,PartyRoleAssociation,0.3333333333333333
+WiFiAssociation,PropertyAddressAssociation,0.3333333333333333
+WiFiAssociation,CalendarEntryAssociation,0.3333333333333333
+WirelessAssociation,AssociationRoleSpecification,0.3333333333333333
+WirelessAssociation,PartyRoleAssociation,0.3333333333333333
+WirelessAssociation,PropertyAddressAssociation,0.3333333333333333
+WirelessAssociation,CalendarEntryAssociation,0.3333333333333333
+AccessPoint,SoftConnectionPointSpec,0.25
+AccessPoint,ElectronicConnectionPointSpec,0.25
+Action,ProductConfigSpecAction,0.25
+Action,ProdOfferPriceAction,0.25
+Action,RevenueAssuranceActionSpec,0.25
+Action,SecurityVulnerabilityFixAction,0.25
+Action,RootEntityTypeAction,0.25
+Action,EntitySpecificationActionWorkflow,0.25
+Action,ContainedPolicyActionDetails,0.25
+Action,PolicyActionRuleDetails,0.25
+Action,PolicyActionPerformedDetails,0.25
+Action,PolicyConfigActionRole,0.25
+AudioService,CustomerServiceLevelAgreement,0.25
+AudioService,ServiceSpecCharacteristicValue,0.25
+AudioService,ServiceSpecCharUse,0.25
+AudioService,CustomerFacingServiceSpec,0.25
+AudioService,ServicePackageSpecAtomic,0.25
+AudioService,ServicePackageSpecComposite,0.25
+AudioService,ResourceFacingServiceSpec,0.25
+AudioService,ServiceBundleSpecAtomic,0.25
+AudioService,ServiceBundleSpecComposite,0.25
+AudioService,ServicePackageBundleDetails,0.25
+AudioService,CustomerFacingServiceAtomic,0.25
+AudioService,CustomerFacingServiceComposite,0.25
+AudioService,CustomerFacingServiceRole,0.25
+AudioService,ResourceFacingServiceAtomic,0.25
+AudioService,ResourceFacingServiceComposite,0.25
+AudioService,ResourceFacingServiceRole,0.25
+AudioService,NegotiatedServiceLevelSpec,0.25
+AudioService,ServiceLevelSpecApplicability,0.25
+AudioService,ServiceLevelSpecConsequence,0.25
+AudioService,ServiceLevelSpecExpression,0.25
+AudioService,ServiceLevelSpecParameter,0.25
+AudioService,TemplateServiceLevelSpec,0.25
+AudioService,PartyServiceLevelAgreement,0.25
+AudioService,ThirdPartyServiceProvider,0.25
+AudioService,ServiceLevelAgreementItem,0.25
+Device,LogicalDeviceRoleSpec,0.25
+Device,PhysicalDeviceRoleSpec,0.25
+FileTransferService,CustomerServiceLevelAgreement,0.25
+FileTransferService,ServiceSpecCharacteristicValue,0.25
+FileTransferService,ServiceSpecCharUse,0.25
+FileTransferService,CustomerFacingServiceSpec,0.25
+FileTransferService,ServicePackageSpecAtomic,0.25
+FileTransferService,ServicePackageSpecComposite,0.25
+FileTransferService,ResourceFacingServiceSpec,0.25
+FileTransferService,ServiceBundleSpecAtomic,0.25
+FileTransferService,ServiceBundleSpecComposite,0.25
+FileTransferService,ServicePackageBundleDetails,0.25
+FileTransferService,CustomerFacingServiceAtomic,0.25
+FileTransferService,CustomerFacingServiceComposite,0.25
+FileTransferService,CustomerFacingServiceRole,0.25
+FileTransferService,ResourceFacingServiceAtomic,0.25
+FileTransferService,ResourceFacingServiceComposite,0.25
+FileTransferService,ResourceFacingServiceRole,0.25
+FileTransferService,NegotiatedServiceLevelSpec,0.25
+FileTransferService,ServiceLevelSpecApplicability,0.25
+FileTransferService,ServiceLevelSpecConsequence,0.25
+FileTransferService,ServiceLevelSpecExpression,0.25
+FileTransferService,ServiceLevelSpecParameter,0.25
+FileTransferService,TemplateServiceLevelSpec,0.25
+FileTransferService,PartyServiceLevelAgreement,0.25
+FileTransferService,ThirdPartyServiceProvider,0.25
+FileTransferService,ServiceLevelAgreementItem,0.25
+Flow,NetFlowSecurityEvent,0.25
+LiFiAccessPoint,SoftConnectionPointSpec,0.25
+LiFiAccessPoint,ElectronicConnectionPointSpec,0.25
+Link,LinkStateRoutingProtocol,0.25
+PathFlow,PathVectorRoutingProtocol,0.25
+PathFlow,NetFlowSecurityEvent,0.25
+PhysicalInfrastructure,PhysicalBlackBoxSpec,0.25
+PhysicalInfrastructure,PhysicalResourceSpecAttributes,0.25
+PhysicalInfrastructure,PhysicalDeviceRoleSpec,0.25
+PhysicalInfrastructure,PhysicalResourceRoleSpec,0.25
+PhysicalInfrastructure,PublicKeyInfrastructureCertificate,0.25
+PhysicalInfrastructure,PlacePhysicalResourceAssoc,0.25
+Service,CustomerServiceLevelAgreement,0.25
+Service,ServiceSpecCharacteristicValue,0.25
+Service,ServiceSpecCharUse,0.25
+Service,CustomerFacingServiceSpec,0.25
+Service,ServicePackageSpecAtomic,0.25
+Service,ServicePackageSpecComposite,0.25
+Service,ResourceFacingServiceSpec,0.25
+Service,ServiceBundleSpecAtomic,0.25
+Service,ServiceBundleSpecComposite,0.25
+Service,ServicePackageBundleDetails,0.25
+Service,CustomerFacingServiceAtomic,0.25
+Service,CustomerFacingServiceComposite,0.25
+Service,CustomerFacingServiceRole,0.25
+Service,ResourceFacingServiceAtomic,0.25
+Service,ResourceFacingServiceComposite,0.25
+Service,ResourceFacingServiceRole,0.25
+Service,NegotiatedServiceLevelSpec,0.25
+Service,ServiceLevelSpecApplicability,0.25
+Service,ServiceLevelSpecConsequence,0.25
+Service,ServiceLevelSpecExpression,0.25
+Service,ServiceLevelSpecParameter,0.25
+Service,TemplateServiceLevelSpec,0.25
+Service,PartyServiceLevelAgreement,0.25
+Service,ThirdPartyServiceProvider,0.25
+Service,ServiceLevelAgreementItem,0.25
+SystemDevice,LogicalDeviceRoleSpec,0.25
+SystemDevice,PhysicalDeviceRoleSpec,0.25
+SystemDevice,SecVulnerabilityScoringSystem,0.25
+SystemDevice,LocalContinuativeCoordSystem,0.25
+SystemDevice,LocalGridCoordinateSystem,0.25
+UserDevice,LogicalDeviceRoleSpec,0.25
+UserDevice,PhysicalDeviceRoleSpec,0.25
+UserDeviceStatus,LogicalDeviceRoleSpec,0.25
+UserDeviceStatus,PhysicalDeviceRoleSpec,0.25
+VideoService,CustomerServiceLevelAgreement,0.25
+VideoService,ServiceSpecCharacteristicValue,0.25
+VideoService,ServiceSpecCharUse,0.25
+VideoService,CustomerFacingServiceSpec,0.25
+VideoService,ServicePackageSpecAtomic,0.25
+VideoService,ServicePackageSpecComposite,0.25
+VideoService,ResourceFacingServiceSpec,0.25
+VideoService,ServiceBundleSpecAtomic,0.25
+VideoService,ServiceBundleSpecComposite,0.25
+VideoService,ServicePackageBundleDetails,0.25
+VideoService,CustomerFacingServiceAtomic,0.25
+VideoService,CustomerFacingServiceComposite,0.25
+VideoService,CustomerFacingServiceRole,0.25
+VideoService,ResourceFacingServiceAtomic,0.25
+VideoService,ResourceFacingServiceComposite,0.25
+VideoService,ResourceFacingServiceRole,0.25
+VideoService,NegotiatedServiceLevelSpec,0.25
+VideoService,ServiceLevelSpecApplicability,0.25
+VideoService,ServiceLevelSpecConsequence,0.25
+VideoService,ServiceLevelSpecExpression,0.25
+VideoService,ServiceLevelSpecParameter,0.25
+VideoService,TemplateServiceLevelSpec,0.25
+VideoService,PartyServiceLevelAgreement,0.25
+VideoService,ThirdPartyServiceProvider,0.25
+VideoService,ServiceLevelAgreementItem,0.25
+WiFiAccessPoint,SoftConnectionPointSpec,0.25
+WiFiAccessPoint,ElectronicConnectionPointSpec,0.25
+WiredLink,LinkStateRoutingProtocol,0.25
+AccessPoint,PublicWANAccessUsageEntity,0.2
+AccessPoint,PublicWLANAccessUsageEntry,0.2
+AudioService,ServiceSpecCharValueUse,0.2
+AudioService,CustomerFacingServiceSpecAtomic,0.2
+AudioService,CustomerFacingServiceSpecComposite,0.2
+AudioService,CustomerFacingServiceSpecVersion,0.2
+AudioService,CustomerFacingServiceSpecRole,0.2
+AudioService,ResourceFacingServiceSpecAtomic,0.2
+AudioService,ResourceFacingServiceSpecComposite,0.2
+AudioService,ResourceFacingServiceSpecVersion,0.2
+AudioService,ResourceFacingServiceSpecRole,0.2
+AudioService,Service Domain.Service ABE,0.2
+AudioService,Service Domain.TIP Service Management ABE,0.2
+AudioService,Protocol Service ABE.LAN Protocols ABE,0.2
+AudioService,Protocol Service ABE.WAN Protocols ABE,0.2
+FileTransferService,ServiceSpecCharValueUse,0.2
+FileTransferService,CustomerFacingServiceSpecAtomic,0.2
+FileTransferService,CustomerFacingServiceSpecComposite,0.2
+FileTransferService,CustomerFacingServiceSpecVersion,0.2
+FileTransferService,CustomerFacingServiceSpecRole,0.2
+FileTransferService,ResourceFacingServiceSpecAtomic,0.2
+FileTransferService,ResourceFacingServiceSpecComposite,0.2
+FileTransferService,ResourceFacingServiceSpecVersion,0.2
+FileTransferService,ResourceFacingServiceSpecRole,0.2
+FileTransferService,Service Domain.Service ABE,0.2
+FileTransferService,Service Domain.TIP Service Management ABE,0.2
+FileTransferService,Protocol Service ABE.LAN Protocols ABE,0.2
+FileTransferService,Protocol Service ABE.WAN Protocols ABE,0.2
+Flow,IPv6FlowIDVariable,0.2
+LiFiAccessPoint,PublicWANAccessUsageEntity,0.2
+LiFiAccessPoint,PublicWLANAccessUsageEntry,0.2
+LiFiWLAN,PublicWLANAccessUsageEntry,0.2
+PathFlow,IPv6FlowIDVariable,0.2
+Service,ServiceSpecCharValueUse,0.2
+Service,CustomerFacingServiceSpecAtomic,0.2
+Service,CustomerFacingServiceSpecComposite,0.2
+Service,CustomerFacingServiceSpecVersion,0.2
+Service,CustomerFacingServiceSpecRole,0.2
+Service,ResourceFacingServiceSpecAtomic,0.2
+Service,ResourceFacingServiceSpecComposite,0.2
+Service,ResourceFacingServiceSpecVersion,0.2
+Service,ResourceFacingServiceSpecRole,0.2
+Service,Service Domain.Service ABE,0.2
+Service,Service Domain.TIP Service Management ABE,0.2
+Service,Protocol Service ABE.LAN Protocols ABE,0.2
+Service,Protocol Service ABE.WAN Protocols ABE,0.2
+VideoService,ServiceSpecCharValueUse,0.2
+VideoService,CustomerFacingServiceSpecAtomic,0.2
+VideoService,CustomerFacingServiceSpecComposite,0.2
+VideoService,CustomerFacingServiceSpecVersion,0.2
+VideoService,CustomerFacingServiceSpecRole,0.2
+VideoService,ResourceFacingServiceSpecAtomic,0.2
+VideoService,ResourceFacingServiceSpecComposite,0.2
+VideoService,ResourceFacingServiceSpecVersion,0.2
+VideoService,ResourceFacingServiceSpecRole,0.2
+VideoService,Service Domain.Service ABE,0.2
+VideoService,Service Domain.TIP Service Management ABE,0.2
+VideoService,Protocol Service ABE.LAN Protocols ABE,0.2
+VideoService,Protocol Service ABE.WAN Protocols ABE,0.2
+WiFiAccessPoint,PublicWANAccessUsageEntity,0.2
+WiFiAccessPoint,PublicWLANAccessUsageEntry,0.2
+WiFiWLAN,PublicWLANAccessUsageEntry,0.2
+WLAN,PublicWLANAccessUsageEntry,0.2
+AudioService,Service Domain.Service Domain Overviews,0.16666666666666666
+AudioService,Service Domain.Service Specification ABE,0.16666666666666666
+AudioService,Service Domain.Service Configuration ABE,0.16666666666666666
+AudioService,Service Domain.Service Order ABE,0.16666666666666666
+AudioService,Service Domain.Service Usage ABE,0.16666666666666666
+AudioService,Service Domain.Service Test ABE,0.16666666666666666
+AudioService,Service Domain.Service Performance ABE,0.16666666666666666
+AudioService,Service Domain.Service Capacity ABE,0.16666666666666666
+AudioService,Service Domain.Service Problem ABE,0.16666666666666666
+BaseStation,Common Domain.Base Types ABE,0.16666666666666666
+CellularUserEquipment,Physical Resource ABE.Equipment ABE,0.16666666666666666
+FileTransferService,Service Domain.Service Domain Overviews,0.16666666666666666
+FileTransferService,Service Domain.Service Specification ABE,0.16666666666666666
+FileTransferService,Service Domain.Service Configuration ABE,0.16666666666666666
+FileTransferService,Service Domain.Service Order ABE,0.16666666666666666
+FileTransferService,Service Domain.Service Usage ABE,0.16666666666666666
+FileTransferService,Service Domain.Service Test ABE,0.16666666666666666
+FileTransferService,Service Domain.Service Performance ABE,0.16666666666666666
+FileTransferService,Service Domain.Service Capacity ABE,0.16666666666666666
+FileTransferService,Service Domain.Service Problem ABE,0.16666666666666666
+FileTransferService,P2PFileSharingSecurityThreatTool,0.16666666666666666
+LiFiUserEquipment,Physical Resource ABE.Equipment ABE,0.16666666666666666
+PhysicalInfrastructure,Resource ABE.Physical Resource ABE,0.16666666666666666
+PhysicalInfrastructure,Physical Resource ABE.Equipment ABE,0.16666666666666666
+PhysicalInfrastructure,Physical Resource ABE.Hardware ABE,0.16666666666666666
+Service,Service Domain.Service Domain Overviews,0.16666666666666666
+Service,Service Domain.Service Specification ABE,0.16666666666666666
+Service,Service Domain.Service Configuration ABE,0.16666666666666666
+Service,Service Domain.Service Order ABE,0.16666666666666666
+Service,Service Domain.Service Usage ABE,0.16666666666666666
+Service,Service Domain.Service Test ABE,0.16666666666666666
+Service,Service Domain.Service Performance ABE,0.16666666666666666
+Service,Service Domain.Service Capacity ABE,0.16666666666666666
+Service,Service Domain.Service Problem ABE,0.16666666666666666
+UserEquipment,Physical Resource ABE.Equipment ABE,0.16666666666666666
+VideoService,Service Domain.Service Domain Overviews,0.16666666666666666
+VideoService,Service Domain.Service Specification ABE,0.16666666666666666
+VideoService,Service Domain.Service Configuration ABE,0.16666666666666666
+VideoService,Service Domain.Service Order ABE,0.16666666666666666
+VideoService,Service Domain.Service Usage ABE,0.16666666666666666
+VideoService,Service Domain.Service Test ABE,0.16666666666666666
+VideoService,Service Domain.Service Performance ABE,0.16666666666666666
+VideoService,Service Domain.Service Capacity ABE,0.16666666666666666
+VideoService,Service Domain.Service Problem ABE,0.16666666666666666
+WiFiUserEquipment,Physical Resource ABE.Equipment ABE,0.16666666666666666
+Action,Product Configuration ABE.Product Action ABE,0.14285714285714285
+Action,Policy Structure ABE.Policy Action ABE,0.14285714285714285
+AudioService,Service Domain.Service Party Roles ABE,0.14285714285714285
+AudioService,Service Specification ABE.Service Catalog ABE,0.14285714285714285
+AudioService,Service ABE.Customer Facing Service ABE,0.14285714285714285
+AudioService,Service ABE.Resource Facing Service ABE,0.14285714285714285
+AudioService,Management Information ABE.Service State ABE,0.14285714285714285
+AudioService,Logical Resource ABE.Protocol Service ABE,0.14285714285714285
+AudioService,Protocol Service ABE.Bridging Protocols ABE,0.14285714285714285
+AudioService,Protocol Service ABE.Management Protocols ABE,0.14285714285714285
+AudioService,Protocol Service ABE.Routed Protocols ABE,0.14285714285714285
+AudioService,Protocol Service ABE.Routing Protocols ABE,0.14285714285714285
+AudioService,Protocol Service ABE.Signaling Protocols ABE,0.14285714285714285
+AudioService,Protocol Service ABE.Switching Protocols ABE,0.14285714285714285
+CellularUserEquipment,Physical Resource ABE.Equipment Holder ABE,0.14285714285714285
+CellularUserEquipment,Equipment Holder ABE.HolderAtomic ABE,0.14285714285714285
+CellularUserEquipment,Equipment Holder ABE.HolderComposite ABE,0.14285714285714285
+ConceptEntities,Common Domain.Root Business Entities ABE,0.14285714285714285
+ConceptEntities,Root Business Entities ABE.Association ABE,0.14285714285714285
+ConceptEntities,Root Business Entities ABE.Characteristic ABE,0.14285714285714285
+Device,Physical Resource ABE.Physical Device ABE,0.14285714285714285
+FileTransferService,Service Domain.Service Party Roles ABE,0.14285714285714285
+FileTransferService,Service Specification ABE.Service Catalog ABE,0.14285714285714285
+FileTransferService,Service ABE.Customer Facing Service ABE,0.14285714285714285
+FileTransferService,Service ABE.Resource Facing Service ABE,0.14285714285714285
+FileTransferService,Management Information ABE.Service State ABE,0.14285714285714285
+FileTransferService,Logical Resource ABE.Protocol Service ABE,0.14285714285714285
+FileTransferService,Protocol Service ABE.Bridging Protocols ABE,0.14285714285714285
+FileTransferService,Protocol Service ABE.Management Protocols ABE,0.14285714285714285
+FileTransferService,Protocol Service ABE.Routed Protocols ABE,0.14285714285714285
+FileTransferService,Protocol Service ABE.Routing Protocols ABE,0.14285714285714285
+FileTransferService,Protocol Service ABE.Signaling Protocols ABE,0.14285714285714285
+FileTransferService,Protocol Service ABE.Switching Protocols ABE,0.14285714285714285
+LiFiAssociation,Root Business Entities ABE.Association ABE,0.14285714285714285
+LiFiUserEquipment,Physical Resource ABE.Equipment Holder ABE,0.14285714285714285
+LiFiUserEquipment,Equipment Holder ABE.HolderAtomic ABE,0.14285714285714285
+LiFiUserEquipment,Equipment Holder ABE.HolderComposite ABE,0.14285714285714285
+LTEAssociation,Root Business Entities ABE.Association ABE,0.14285714285714285
+PhysicalInfrastructure,Physical Resource ABE.Auxiliary Component ABE,0.14285714285714285
+PhysicalInfrastructure,Physical Resource ABE.Equipment Holder ABE,0.14285714285714285
+PhysicalInfrastructure,Physical Resource ABE.Physical Capacity ABE,0.14285714285714285
+PhysicalInfrastructure,Physical Resource ABE.Physical Component ABE,0.14285714285714285
+PhysicalInfrastructure,Physical Resource ABE.Physical Device ABE,0.14285714285714285
+PhysicalInfrastructure,Physical Resource ABE.Physical Role ABE,0.14285714285714285
+SatelliteAssociation,Root Business Entities ABE.Association ABE,0.14285714285714285
+Service,Service Domain.Service Party Roles ABE,0.14285714285714285
+Service,Service Specification ABE.Service Catalog ABE,0.14285714285714285
+Service,Service ABE.Customer Facing Service ABE,0.14285714285714285
+Service,Service ABE.Resource Facing Service ABE,0.14285714285714285
+Service,Management Information ABE.Service State ABE,0.14285714285714285
+Service,Logical Resource ABE.Protocol Service ABE,0.14285714285714285
+Service,Protocol Service ABE.Bridging Protocols ABE,0.14285714285714285
+Service,Protocol Service ABE.Management Protocols ABE,0.14285714285714285
+Service,Protocol Service ABE.Routed Protocols ABE,0.14285714285714285
+Service,Protocol Service ABE.Routing Protocols ABE,0.14285714285714285
+Service,Protocol Service ABE.Signaling Protocols ABE,0.14285714285714285
+Service,Protocol Service ABE.Switching Protocols ABE,0.14285714285714285
+SystemDevice,Physical Resource ABE.Physical Device ABE,0.14285714285714285
+UserDevice,Physical Resource ABE.Physical Device ABE,0.14285714285714285
+UserDeviceStatus,Physical Resource ABE.Physical Device ABE,0.14285714285714285
+UserEquipment,Physical Resource ABE.Equipment Holder ABE,0.14285714285714285
+UserEquipment,Equipment Holder ABE.HolderAtomic ABE,0.14285714285714285
+UserEquipment,Equipment Holder ABE.HolderComposite ABE,0.14285714285714285
+VideoService,Service Domain.Service Party Roles ABE,0.14285714285714285
+VideoService,Service Specification ABE.Service Catalog ABE,0.14285714285714285
+VideoService,Service ABE.Customer Facing Service ABE,0.14285714285714285
+VideoService,Service ABE.Resource Facing Service ABE,0.14285714285714285
+VideoService,Management Information ABE.Service State ABE,0.14285714285714285
+VideoService,Logical Resource ABE.Protocol Service ABE,0.14285714285714285
+VideoService,Protocol Service ABE.Bridging Protocols ABE,0.14285714285714285
+VideoService,Protocol Service ABE.Management Protocols ABE,0.14285714285714285
+VideoService,Protocol Service ABE.Routed Protocols ABE,0.14285714285714285
+VideoService,Protocol Service ABE.Routing Protocols ABE,0.14285714285714285
+VideoService,Protocol Service ABE.Signaling Protocols ABE,0.14285714285714285
+VideoService,Protocol Service ABE.Switching Protocols ABE,0.14285714285714285
+WiFiAssociation,Root Business Entities ABE.Association ABE,0.14285714285714285
+WiFiUserEquipment,Physical Resource ABE.Equipment Holder ABE,0.14285714285714285
+WiFiUserEquipment,Equipment Holder ABE.HolderAtomic ABE,0.14285714285714285
+WiFiUserEquipment,Equipment Holder ABE.HolderComposite ABE,0.14285714285714285
+WirelessAssociation,Root Business Entities ABE.Association ABE,0.14285714285714285
+AudioService,Customer Domain.Customer Service Level Agreement ABE,0.125
+AudioService,Service Performance ABE.Service Level Spec ABE,0.125
+AudioService,Service Performance ABE.Service Performance Specification ABE,0.125
+AudioService,Service Domain.Service Strategy & Plan ABE,0.125
+AudioService,Management Information ABE.Service Statistical Info ABE,0.125
+ConceptEntities,Root Business Entities ABE.Entity Identification ABE,0.125
+FileTransferService,Customer Domain.Customer Service Level Agreement ABE,0.125
+FileTransferService,Service Performance ABE.Service Level Spec ABE,0.125
+FileTransferService,Service Performance ABE.Service Performance Specification ABE,0.125
+FileTransferService,Service Domain.Service Strategy & Plan ABE,0.125
+FileTransferService,Management Information ABE.Service Statistical Info ABE,0.125
+PhysicalInfrastructure,Resource Specification ABE.PhysicalResource Specification ABE,0.125
+Service,Customer Domain.Customer Service Level Agreement ABE,0.125
+Service,Service Performance ABE.Service Level Spec ABE,0.125
+Service,Service Performance ABE.Service Performance Specification ABE,0.125
+Service,Service Domain.Service Strategy & Plan ABE,0.125
+Service,Management Information ABE.Service Statistical Info ABE,0.125
+SystemDevice,Resource ABE.ResourceRole System View ABE,0.125
+VideoService,Customer Domain.Customer Service Level Agreement ABE,0.125
+VideoService,Service Performance ABE.Service Level Spec ABE,0.125
+VideoService,Service Performance ABE.Service Performance Specification ABE,0.125
+VideoService,Service Domain.Service Strategy & Plan ABE,0.125
+VideoService,Management Information ABE.Service Statistical Info ABE,0.125
+Action,Root Business Entities ABE.Entity Specification Action ABE,0.1111111111111111
+AudioService,Service Specification ABE.Customer Facing Service Spec ABE,0.1111111111111111
+AudioService,Customer Facing Service Spec ABE.Service Package ABE,0.1111111111111111
+AudioService,Service Specification ABE.Resource Facing Service Spec ABE,0.1111111111111111
+AudioService,Resource Facing Service Spec ABE.Service Bundle ABE,0.1111111111111111
+AudioService,Business Partner Domain.Party Service Level Agreement ABE,0.1111111111111111
+ConceptEntities,Root Business Entities ABE.Root Entity Group ABE,0.1111111111111111
+ConceptEntities,Root Business Entities ABE.Entity Specification Action ABE,0.1111111111111111
+ConceptEntities,Root Business Entities ABE.External System Capability ABE,0.1111111111111111
+ConceptEntities,Root Business Entities ABE.Root Entity Attachment ABE,0.1111111111111111
+FileTransferService,Service Specification ABE.Customer Facing Service Spec ABE,0.1111111111111111
+FileTransferService,Customer Facing Service Spec ABE.Service Package ABE,0.1111111111111111
+FileTransferService,Service Specification ABE.Resource Facing Service Spec ABE,0.1111111111111111
+FileTransferService,Resource Facing Service Spec ABE.Service Bundle ABE,0.1111111111111111
+FileTransferService,Business Partner Domain.Party Service Level Agreement ABE,0.1111111111111111
+PhysicalInfrastructure,PhysicalResource Specification ABE.Physical Role Specification ABE,0.1111111111111111
+Service,Service Specification ABE.Customer Facing Service Spec ABE,0.1111111111111111
+Service,Customer Facing Service Spec ABE.Service Package ABE,0.1111111111111111
+Service,Service Specification ABE.Resource Facing Service Spec ABE,0.1111111111111111
+Service,Resource Facing Service Spec ABE.Service Bundle ABE,0.1111111111111111
+Service,Business Partner Domain.Party Service Level Agreement ABE,0.1111111111111111
+SystemDevice,Root Business Entities ABE.External System Capability ABE,0.1111111111111111
+VideoService,Service Specification ABE.Customer Facing Service Spec ABE,0.1111111111111111
+VideoService,Customer Facing Service Spec ABE.Service Package ABE,0.1111111111111111
+VideoService,Service Specification ABE.Resource Facing Service Spec ABE,0.1111111111111111
+VideoService,Resource Facing Service Spec ABE.Service Bundle ABE,0.1111111111111111
+VideoService,Business Partner Domain.Party Service Level Agreement ABE,0.1111111111111111
+AudioService,Customer Facing Service ABE.CustomerFacing Service Role ABE,0.1
+AudioService,Resource Facing Service ABE.Resource Facing Service Role ABE,0.1
+FileTransferService,Customer Facing Service ABE.CustomerFacing Service Role ABE,0.1
+FileTransferService,Resource Facing Service ABE.Resource Facing Service Role ABE,0.1
+Service,Customer Facing Service ABE.CustomerFacing Service Role ABE,0.1
+Service,Resource Facing Service ABE.Resource Facing Service Role ABE,0.1
+VideoService,Customer Facing Service ABE.CustomerFacing Service Role ABE,0.1
+VideoService,Resource Facing Service ABE.Resource Facing Service Role ABE,0.1
+AudioService,Customer Facing Service Spec ABE.Customer Facing Service Spec Role ABE,0.08333333333333333
+AudioService,Resource Facing Service Spec ABE.Resource Facing Service Spec Role ABE,0.08333333333333333
+FileTransferService,Customer Facing Service Spec ABE.Customer Facing Service Spec Role ABE,0.08333333333333333
+FileTransferService,Resource Facing Service Spec ABE.Resource Facing Service Spec Role ABE,0.08333333333333333
+Service,Customer Facing Service Spec ABE.Customer Facing Service Spec Role ABE,0.08333333333333333
+Service,Resource Facing Service Spec ABE.Resource Facing Service Spec Role ABE,0.08333333333333333
+VideoService,Customer Facing Service Spec ABE.Customer Facing Service Spec Role ABE,0.08333333333333333
+VideoService,Resource Facing Service Spec ABE.Resource Facing Service Spec Role ABE,0.08333333333333333

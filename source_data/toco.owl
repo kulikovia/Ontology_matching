@@ -1,0 +1,825 @@
+@prefix : <http ://www.w3 . org /2002/07/ owl#> .
+@prefix f o a f : <http :// xmlns . com/ f o a f /0.1/> .
+@prefix geo : <http ://www.w3 . org /2003/01/ geo/wgs84 pos/> .
+@prefix om: <http :// pur l . oc l c . org / net / unis / ontology / sensordata . owl/> .
+@prefix rdf : <http ://www.w3 . org /1999/02/22−rdf−syntax−ns#> .
+@prefix rdf s : <http ://www.w3 . org /2000/01/ rdf−schema#> .
+@prefix time : <http ://www.w3 . org /2006/ time#> .
+@prefix toco : <http :// pur l . org / toco/> .
+@prefix toco2 : <https ://w3id . org/ toco/> .
+@prefix uni t s : <https :// sweet . jpl . nasa . gov/> .
+@prefix xml : <http ://www.w3 . org /XML/1998/namespace> .
+@prefix xsd : <http ://www.w3 . org /2001/XMLSchema#> .
+<http :// pur l . obol ibrary . org /obo/UO 0000008> a :Class ;
+rdf s : labe l ”meter” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000001> .
+<http :// pur l . obol ibrary . org /obo/UO 0000010> a :Class ;
+rdf s : labe l ” second” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000003> .
+<http :// pur l . obol ibrary . org /obo/UO 0000016> a :Class ;
+rdf s : labe l ”mi l l imeter ” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000001> .
+<http :// pur l . obol ibrary . org /obo/UO 0000017> a :Class ;
+rdf s : labe l ”micrometer” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+116
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000001> .
+<http :// pur l . obol ibrary . org /obo/UO 0000028> a :Class ;
+rdf s : labe l ”mi l l i second ” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000003> .
+<http :// pur l . obol ibrary . org /obo/UO 0000031> a :Class ;
+rdf s : labe l ”minute” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000003> .
+<http :// pur l . obol ibrary . org /obo/UO 0000032> a :Class ;
+rdf s : labe l ”hour” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000003> .
+<http :// pur l . obol ibrary . org /obo/UO 0000034> a :Class ;
+rdf s : labe l ”week” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000003> .
+<http :// pur l . obol ibrary . org /obo/UO 0000035> a :Class ;
+rdf s : labe l ”month” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000003> .
+<http :// pur l . obol ibrary . org /obo/UO 0000036> a :Class ;
+rdf s : labe l ”year” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000003> .
+<http :// pur l . obol ibrary . org /obo/UO 0000092> a :Class ;
+rdf s : labe l ” turns per second” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000058> .
+<http :// pur l . obol ibrary . org /obo/UO 0000094> a :Class ;
+rdf s : labe l ”meter per second” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000060> .
+<http :// pur l . obol ibrary . org /obo/UO 0000106> a :Class ;
+rdf s : labe l ” hertz ” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000105> .
+117
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+<http :// pur l . obol ibrary . org /obo/UO 0000114> a :Class ;
+rdf s : labe l ”watt” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000113> .
+<http :// pur l . obol ibrary . org /obo/UO 0000223> a :Class ;
+rdf s : labe l ”watt−hour” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000111> .
+<http :// pur l . obol ibrary . org /obo/UO 0000224> a :Class ;
+rdf s : labe l ” ki lowatt−hour” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000111> .
+<http :// pur l . obol ibrary . org /obo/UO 0000232> a :Class ;
+rdf s : labe l ” bi t ” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000231> .
+<http :// pur l . obol ibrary . org /obo/UO 0000233> a :Class ;
+rdf s : labe l ”byte” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000231> .
+<http :// pur l . obol ibrary . org /obo/UO 0000235> a :Class ;
+rdf s : labe l ”megabyte” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000231> .
+<http :// pur l . obol ibrary . org /obo/UO 0000325> a :Class ;
+rdf s : labe l ”megaHertz” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000105> .
+<http :// pur l . obol ibrary . org /obo/UO 0000331> a :Class ;
+rdf s : labe l ” gigabyte ” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000231> .
+<http :// pur l . obol ibrary . org /obo/UO 0000332> a :Class ;
+rdf s : labe l ” terabyte ” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000231> .
+<http :// pur l . obol ibrary . org /obo/UO 0010005> a :Class ;
+rdf s : labe l ”mi l l imeter s per day” ;
+118
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000060> .
+<http :// pur l . obol ibrary . org /obo/UO 0010008> a :Class ;
+rdf s : labe l ” ki lometer per hour” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000060> .
+om: hasUni t a : DatatypeProper ty ;
+rdf s : comment ” reused from SENSEI Observation and Measurement Ontology .”ˆˆ xsd :
+s t r i n g ;
+rdf s : domain om:ObervationAndMeasurement ;
+rdf s : isDefinedBy om: ;
+rdf s : range xsd : s t r ing .
+om: hasUni t s a : Obj e c tPrope r ty ;
+rdf s : comment ” reused from SenSei Observation and Measurement Ontology ( http ://
+purl . oc l c . org/net/ unis / ontology / sensordata . owl /) .”ˆˆ xsd : s t r ing ;
+rdf s : domain om:ObervationAndMeasurement ;
+rdf s : isDefinedBy om: ;
+rdf s : range <http :// pur l . obol ibrary . org /obo/uo . owl/unit> .
+om: hasValue a : DatatypeProper ty ;
+rdf s : comment ” reused from SENSEI observation and measurement ontology .”ˆˆ xsd :
+s t r i n g ;
+rdf s : domain om:ObervationAndMeasurement ;
+rdf s : isDefinedBy om: ;
+rdf s : range xsd : f l o a t .
+toco :APsInRange a : ObjectProperty ;
+rdf s : domain toco : UserDevice ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : AccessPoint .
+toco : Attached a : Class ;
+rdf s : subClassOf toco : UserDeviceStatus .
+toco : AudioService a : Class ;
+rdf s : subClassOf toco : Service .
+toco : AudioSession a : Class ;
+rdf s : subClassOf toco : Session .
+toco : BaseStation a : Class ;
+rdf s : comment ”””a ”land s tat ion in the land mobile s e rvi c e .” −− according to the
+I n t e r n a t ional Telecommunication Union ’ s (ITU) Radio Regulations (RR) .
+119
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+i t i s a t ransceiver connecting a number of other devices to one another and/or to a
+wider area . In LTE, i t i s al so known as eNodeB.”””ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : SystemDevice .
+toco : Cel lularUserEquipment a : Class ;
+rdf s : comment ”User deivce in a C e l l u l a r network .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : UserEquipment .
+toco : Channel a : DatatypeProperty ;
+rdf s : comment ”the channel id of a int e r f a c e .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Int e r fac e ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : int .
+toco : Detached a : Class ;
+rdf s : subClassOf toco : UserDeviceStatus .
+toco :Drop a : Class ;
+rdf s : subClassOf toco : Action .
+toco : Fi l eTrans f e rSe rvi c e a : Class ;
+rdf s : subClassOf toco : Service .
+toco : Forward a : Class ;
+rdf s : subClassOf toco : Action .
+toco : Frequency a : DatatypeProperty ;
+rdf s : comment ”the frequency of the radio wave transmitted by a wi r e l e s s int e r f a c e
+(WLAN) . ” ˆ ˆ xsd : s t r i n g ;
+rdf s : domain toco : Int e r fac e ;
+rdf s : range xsd : f l o a t .
+toco :From a : ObjectProperty ;
+rdf s : comment ”the source node that the l ink i s transmit from.”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Link ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : Int e r fac e ;
+rdf s : subPropertyOf : topObjectProperty .
+toco : Host a : Class ;
+rdf s : comment ”A host i s a computer or other device connected to a computer
+network . I t i s a network node that i s as s igned a network addres s .”ˆˆ xsd :
+s t r i n g ;
+rdf s : subClassOf toco : UserDevice .
+toco :Output a : Class ;
+rdf s : subClassOf toco : Action .
+120
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+toco : PathFlow a : Class ;
+rdf s : subClassOf toco : Flow .
+toco : Satel l i teGroundStat ion a : Class ;
+rdf s : comment ”used in s a t e l l i t e network . Also known as earth station , or earth
+terminal , i t i s a t e r r e s t r i a l radio s tat ion designed for ext raplanetary
+telecommunication with spac e c raf t ( cons t i tut ing part of the ground segment of
+the spac e c raf t system) , or r e c ept ion of radio waves from as t ronomical radio
+sources . Ground s tat ions may be located e i the r on the sur fac e of the Earth ,
+or in i t s atmosphere . [ 1 ] Earth s t a t i ons communicate with spac e c raf t by
+transmitting and r e c e iving radio waves in the super high frequency or
+extremely high frequency bands ( e . g . , microwaves ) . When a ground s tat ion
+s u c c e s s f u l l y transmits radio waves to a spacecraf t ( or vice versa ) , i t
+e s t a b l i shes a telecommunications l ink . A pr inc ipal telecommunications device
+of the ground s tat ion i s the parabol ic antenna .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : UserEquipment .
+toco : Sa t e l l i t eRe l aySt a t i on a : Class ;
+rdf s : comment ”An a r t i f i c i a l s a t e l l i t e , that r e lays and ampl i f i e s radio
+telecommunications s i gna l s via a transponder ; i t c r eat e s a communication
+channel between a source t ransmi t ter and a r e c e i v e r at d i f f e r e n t l o c a t i ons on
+Earth . Communications s a t e l l i t e s are used f o r t e l e v i s i o n , telephone , radio ,
+internet , and mi l i tary appl i cat ions .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : SystemDevice .
+toco : Switch a : Class ;
+rdf s : comment ”A network switch ( al so cal l ed switching hub , bridging hub ,
+o f f i c i a l l y MAC bridge ) i s a computer networking device that connects devices
+together on a computer network by using packet switching to receive , process ,
+and forward data to the de s t ina t i on devi c e .”ˆˆ xsd : s t r i n g ;
+rdf s : subClassOf toco : SystemDevice .
+toco : Text a : Class ;
+rdf s : subClassOf toco : Service .
+toco :To a : ObjectProperty ;
+rdf s : comment ”the des t inat ion node of the l ink .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Link ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : Int e r fac e ;
+rdf s : subPropertyOf : topObjectProperty .
+toco : VideoService a : Class ;
+rdf s : subClassOf toco : Service .
+toco : VideoSession a : Class ;
+121
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+rdf s : subClassOf toco : Session .
+toco :WiFiAccessPoint a : Class ;
+rdf s : comment ”An acces s point in a WiFi network”ˆˆxsd : s t r ing ;
+rdf s : subClassOf toco : AccessPoint .
+toco :WiFiUserEquipment a : Class ;
+rdf s : comment ”a user quipment in Wi−Fi network ”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : UserEquipment .
+toco : cont r ibutor a : AnnotationProperty .
+toco : cookie a : DatatypeProperty ;
+rdf s : domain toco : Flow ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing ;
+rdf s : subPropertyOf toco : hasFlowProperty .
+toco : dr ive r a : DatatypeProperty ;
+rdf s : domain toco : AccessPoint ;
+rdf s : range xsd : s t r ing .
+toco : f l a g s a : DatatypeProperty ;
+rdf s : domain toco : Flow ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : int ;
+rdf s : subPropertyOf toco : hasFlowProperty .
+toco : hard t imeout a : DatatypeProperty ;
+rdf s : domain toco : Flow ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing ;
+rdf s : subPropertyOf toco : hasFlowProperty .
+toco : hasAntennaGain a : DatatypeProperty ;
+rdf s : comment ”the gain of an antenna on the wi r e l e s s int e r f a c e .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco :WLAN ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : int .
+toco : hasAntennaHeight a : DatatypeProperty ;
+rdf s : comment ”the height of the antenna of a wi r e l e s s int e r f a c e ”ˆˆxsd : s t r ing ;
+rdf s : domain toco :WLAN ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t .
+toco : hasAs sociatedStat ions a : ObjectProperty ;
+122
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+rdf s : comment ” in wi r e l e s s networks , the user equipments (mobile s tat ions in
+another term , e . g . , phones , laptops , tabl e t s , etc . ) that are as soc iat ed to
+the ac c e s s point .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : AccessPoint ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : UserDevice ;
+rdf s : subPropertyOf : topObjectProperty .
+toco : hasBandwidth a : ObjectProperty ;
+rdf s : comment ”the bandwidth of the l ink ”ˆˆxsd : s t r ing ;
+rdf s : domain toco : Link ;
+rdf s : range om:ObervationAndMeasurement ;
+rdf s : subPropertyOf toco : hasLinkProperty .
+toco : hasDevice a : ObjectProperty ;
+rdf s : domain toco : User ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : UserDevice ;
+: inverseOf toco :BelongsTo .
+toco : hasDistance a : DatatypeProperty ;
+rdf s : comment ”the Eucl idean di s tance between the LiFi user equipment and acces s
+point .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : LiFiAs sociat ion ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t ;
+rdf s : subPropertyOf toco : hasLiFiAssociationProperty .
+toco : hasErrorCode a : DatatypeProperty ;
+rdf s : comment ”the er ror code of a s e rvi c e .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Service ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing .
+toco : hasFieldOfView a : DatatypeProperty ;
+rdf s : comment ””” Field of view (FOV) i s the open observable area where a LiFi user
+equipment could r e c e i v e v i s i a b l e l i g h t s i gna l . I t i s de f ined by l e t the
+i nci dent angle of the LiFi user equipment equals to Pi /2.
+I f the incident angle large r than Pi /2 , the l ight ray i s out of the FOV, thus cannot
+be r e c e ived by the LiFi user equipment .”””ˆˆ xsd : s t r i n g ;
+rdf s : domain toco : LiFiUserEquipment ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t ;
+rdf s : subPropertyOf toco : hasLiFiUserEquipmentProperty .
+toco : hasFlow a : ObjectProperty ;
+123
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+rdf s : domain toco : SystemDevice ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : Flow .
+toco : hasFlowAction a : ObjectProperty ;
+rdf s : domain toco : Flow ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : Action .
+toco : hasGainOfConcentrator a : DatatypeProperty ;
+rdf s : comment ”The gain of the concentrator on the LiFi user equipment , usual ly
+equal s to 1.”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : LiFiUserEquipment ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t ;
+rdf s : subPropertyOf toco : hasLiFiUserEquipmentProperty .
+toco : hasGainofOpt icalFi l ter a : DatatypeProperty ;
+rdf s : comment ”Gain of opt i cal f i l t e r on LiFi acces s point .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : LiFiAccessPoint ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t ;
+rdf s : subPropertyOf toco : hasLiFiAccessPointProperty .
+toco : hasHal f Intens i tyAngle a : DatatypeProperty ;
+rdf s : comment ”””The angle of hal f int ens i ty of the LED l i ght transmiting v i s i b l e
+l i g h t s ignal in a LiFi access point .
+A fixed value. It is the angle where the radiated intensity will be half as intense
+as i t would be at 0 degrees , or point ing s t r a i ght ahead .
+Factors that cont r ibute to the angle of hal f int ens i ty include the amount of
+d i f f u s i ng material in the epoxy , the shape of the r e f l e c t o r cup which surrounds
+the LED chip , the shape of the LED lens , the di s tanc e from the LED to the t ip of
+the lens , and the type of emi t ter chip .
+The most common value i s Pi /3.”””ˆˆ xsd : s t r i n g ;
+rdf s : domain toco : LiFiAccessPoint ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t ;
+rdf s : subPropertyOf toco : hasLiFiAccessPointProperty .
+toco : hasIP a : DatatypeProperty ;
+rdf s : comment ”the IP address of the int e r f a c e .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Int e r fac e ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing .
+124
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+toco : hasIncidentAngle a : DatatypeProperty ;
+rdf s : comment ”The angle of incidence of the LED r e c e ive r on LiFi user equipment ,
+which i s the angle between the v i s i a b l e l i g h t ray inc ident on a sur f a c e and
+the l i n e perpendicular to the sur fac e at the point of incidence , c a l l ed the
+normal .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : LiFiAs sociat ion ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t ;
+rdf s : subPropertyOf toco : hasLiFiAssociationProperty .
+toco : hasInterfaceName a : DatatypeProperty ;
+rdf s : comment ”the name of an int e r f a c e ”ˆˆxsd : s t r ing ;
+rdf s : domain toco : Int e r fac e ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing .
+toco : hasJoinDate a : DatatypeProperty ;
+rdf s : comment ”the join date of the user device ” ;
+rdf s : domain toco : UserDevice ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : dateTime .
+toco : hasLTEAssociation a : ObjectProperty ;
+rdf s : range toco : LTEAssociation ;
+rdf s : subPropertyOf toco : hasWi reles sAssociat ion .
+toco : hasLiFiAs sociat ion a : ObjectProperty ;
+rdf s : domain toco :LiFiWLAN ;
+rdf s : range toco : LiFiAs sociat ion ;
+rdf s : subPropertyOf toco : hasWi reles sAssociat ion .
+toco : hasLiFiWLAN a : ObjectProperty ;
+rdf s : domain toco : Device ;
+rdf s : range toco :LiFiWLAN ;
+rdf s : subPropertyOf toco :hasWLAN .
+toco :hasMAC a : DatatypeProperty ;
+rdf s : comment ”the MAC address of the int e r f a c e .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Int e r fac e ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing .
+toco : hasOpticalTransmittedPower a : DatatypeProperty ;
+rdf s : comment ”the transmitted power of the LED on the LiFi acces s point ”ˆˆxsd :
+s t r i n g ;
+rdf s : domain toco : LiFiAccessPoint ;
+125
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t ;
+rdf s : subPropertyOf toco : hasLiFiAccessPointProperty .
+toco : hasPacketLoss a : DatatypeProperty ;
+rdf s : comment ”the packet l o s s rate of a l ink , usual ly in percentage .”ˆˆ xsd : s t r ing
+;
+rdf s : domain toco : Link ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t .
+toco : hasPort a : ObjectProperty ;
+rdf s : domain toco : Device ;
+rdf s : range toco : Int e r fac e ;
+rdf s : subPropertyOf toco : has Inter face .
+toco : hasRadianceAngle a : DatatypeProperty ;
+rdf s : comment ”the radiance angle of the l i ght ray transmitted from LED on LiFi
+acces s point .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : LiFiAs sociat ion ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t ;
+rdf s : subPropertyOf toco : hasLiFiAssociationProperty .
+toco : hasRespansivity a : DatatypeProperty ;
+rdf s : domain toco : LiFiAccessPoint ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t ;
+rdf s : subPropertyOf toco : hasLiFiAccessPointProperty .
+toco : hasRoundTripTime a : ObjectProperty ;
+rdf s : comment ”the round t r ip time of a l ink , which i s the time taken for s ignal
+t r a v e l a round t r ip via thi s l ink .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Link ;
+rdf s : range om:ObervationAndMeasurement ;
+rdf s : subPropertyOf toco : hasLinkProperty .
+toco : ha sSa t e l l i t eAs s o c i a t i on a : ObjectProperty ;
+rdf s : domain toco : Device ;
+rdf s : range toco : Sa t e l l i t eAs s o c i a t i on ;
+rdf s : subPropertyOf toco : hasWi reles sAssociat ion .
+toco : hasService a : ObjectProperty ;
+rdf s : domain toco : UserDevice ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : Service .
+126
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+toco : hasServiceEndTime a : DatatypeProperty ;
+rdf s : comment ”the time that a s e rvi c e ends .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Service ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : dateTime .
+toco : hasServiceStartTime a : DatatypeProperty ;
+rdf s : comment ”the s tar t time of a s e rvi c e .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Service ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : dateTime .
+toco : hasServiceStatus a : DatatypeProperty ;
+rdf s : comment ”the s tatus of the s e rvi c e .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Service ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing .
+toco : hasServiceType a : DatatypeProperty ;
+rdf s : comment ”the type of communication s e rvic es , e . g . , video , audio , f i l e
+transmit , text transmiting , etc .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Service ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing .
+toco : hasStandardDeviation a : ObjectProperty ;
+rdf s : comment ”After multiple round t r ip time tes ted on a l ink , the deviat ion of
+these t e s t r e sul t s .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Link ;
+rdf s : range om:ObervationAndMeasurement ;
+rdf s : subPropertyOf toco : hasLinkProperty .
+toco : hasThroughPut a : ObjectProperty ;
+rdf s : domain toco : Link ;
+rdf s : range om:ObervationAndMeasurement ;
+rdf s : subPropertyOf toco : hasLinkProperty .
+toco : hasTransmitPower a : ObjectProperty ;
+rdf s : domain toco : Int e r fac e ;
+rdf s : isDefinedBy toco : ;
+rdf s : range om:ObervationAndMeasurement ;
+rdf s : subPropertyOf : topObjectProperty .
+toco : hasUserDeviceStatus a : ObjectProperty ;
+rdf s : domain toco : UserDevice ;
+rdf s : range toco : UserDeviceStatus .
+127
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+toco : hasUserID a : DatatypeProperty ;
+rdf s : comment ”the user ID of the user ” ;
+rdf s : domain toco : User ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing .
+toco : hasWiFiAssociat ion a : ObjectProperty ;
+rdf s : domain toco :WiFiWLAN ;
+rdf s : range toco :WiFiAssociation ;
+rdf s : subPropertyOf toco : hasWi reles sAssociat ion .
+toco :hasWiFiWLAN a : ObjectProperty ;
+rdf s : domain toco : Device ;
+rdf s : range toco :WiFiWLAN ;
+rdf s : subPropertyOf toco :hasWLAN .
+toco : hasWiredLink a : ObjectProperty ;
+rdf s : domain toco : Int e r fac e ;
+rdf s : range toco :WiredLink ;
+rdf s : subPropertyOf toco : hasLink ;
+: propertyDisjointWith toco : hasWirelessAssociation .
+toco : idl e timeout a : DatatypeProperty ;
+rdf s : domain toco : Flow ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing ;
+rdf s : subPropertyOf toco : hasFlowProperty .
+toco : i s In a : ObjectProperty ;
+rdf s : comment ”the r e l a t i on that a int e r f a c e belongs to a device . A device can
+have mul t ipl e int e r f a c e s , but a i n t e r f a c e can be in one and only one devi ce
+.”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Int e r fac e ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : Device ;
+: inverseOf toco : hasInterface .
+toco : isUP a : DatatypeProperty ;
+rdf s : comment ” i n d i c a t e whether a int e r f a c e i s up or not .” ;
+rdf s : domain toco : Int e r fac e ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : boolean .
+toco : l i c e n s e a : AnnotationProperty .
+toco : pr i o r i t y a : DatatypeProperty ;
+rdf s : domain toco : Flow ;
+128
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing ;
+rdf s : subPropertyOf toco : hasFlowProperty .
+toco : range a : ObjectProperty ;
+rdf s : comment ”the s ignal range of wi r e l e s s devices , such as WiFi acces s point ,
+LiFi ac c e s s point , WiFi mobi le s tat ion , and LiFi mobi le s tat ion .”ˆˆ xsd : s t r ing
+;
+rdf s : domain toco : Device ;
+rdf s : isDefinedBy toco : ;
+rdf s : range om:ObervationAndMeasurement .
+toco : s s id a : DatatypeProperty ;
+rdf s : comment ” in wi r e l e s s networks , the s s id of the network thi s device belongs
+to .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Device ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing .
+toco : stationsInRange a : ObjectProperty ;
+rdf s : comment ” in wi r e l e s s networks (WiFi/LiFi ) , the mobile s tat ions in the range
+of the acces s point s .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : AccessPoint ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : UserEquipment .
+toco : t abl e i d a : DatatypeProperty ;
+rdf s : domain toco : Flow ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : s t r ing ;
+rdf s : subPropertyOf toco : hasFlowProperty .
+toco : toPort a : ObjectProperty ;
+rdf s : comment ”the port to send to , def ined in an f low action \”Output\” and \”
+Forward \”” ;
+rdf s : domain toco : Action ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : Int e r fac e .
+toco : unReachable a : Class ;
+rdf s : subClassOf toco : UserDeviceStatus .
+<http ://www.w3 . org /2003/01/ geo/wgs84 pos#Point> a :Class ;
+rdf s : labe l ” l o c a t i o n ” ;
+rdf s : comment ”””The r e l a t i on between something and the point ,
+or other geomet r ical thing in space , where i t i s . For example , the r e a l t i onship
+between
+129
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+a radio tower and a Point with a given lat and long.
+Or a r e l a t i o n s h i p between a park and i t s o u t l i n e as a c l o s ed ar c o f point s , or a
+road and
+i t s locat ion as a arc (a sequence of points ) .
+Clear l y in prac t i c e there wi l l be l imi t to the accuracy of any such statement , but
+one would expect
+an accuracy appropr iat e f o r the s i z e of the obj e c t and uses such as mapping .””” ;
+rdf s : isDefinedBy <http ://www.w3 . org /2003/01/ geo/wgs84 pos#> ;
+rdf s : subClassOf <http ://www.w3 . org /2003/01/ geo/wgs84 pos#SpartialThing> .
+<http ://www.w3 . org /2003/01/ geo/wgs84 pos#al t> a :DatatypeProperty ;
+rdf s : comment ”the al t i tude of a spa r t i a l thing , i . e . , a point .” ;
+rdf s : domain <http ://www.w3 . org /2003/01/ geo/wgs84 pos#SpartialThing> ;
+rdf s : isDefinedBy <http ://www.w3 . org /2003/01/ geo/wgs84 pos#> ;
+rdf s : range xsd : f l o a t .
+<http ://www.w3 . org /2003/01/ geo/wgs84 pos#lat> a :DatatypeProperty ;
+rdf s : domain <http ://www.w3 . org /2003/01/ geo/wgs84 pos#SpartialThing> ;
+rdf s : isDefinedBy <http ://www.w3 . org /2003/01/ geo/wgs84 pos#>,
+” the lat i tude of a point ” ;
+rdf s : range xsd : f l o a t .
+<http ://www.w3 . org /2003/01/ geo/wgs84 pos#locat ion> a :ObjectProperty ;
+rdf s : comment ”””The r e l a t i on between something and the point ,
+or other geomet r ical thing in space , where i t i s . For example , the r e a l t i onship
+between
+a radio tower and a Point with a given lat and long.
+Or a r e l a t i o n s h i p between a park and i t s o u t l i n e as a c l o s ed ar c o f point s , or a
+road and
+i t s locat ion as a arc (a sequence of points ) .
+Clear l y in prac t i c e there wi l l be l imi t to the accuracy of any such statement , but
+one would expect
+an accuracy appropr iat e f o r the s i z e of the obj e c t and uses such as mapping .””” ;
+rdf s : domain toco : Device ;
+rdf s : isDefinedBy <http ://www.w3 . org /2003/01/ geo/wgs84 pos#> ;
+rdf s : range <http ://www.w3 . org /2003/01/ geo/wgs84 pos#SpartialThing> .
+<http ://www.w3 . org /2003/01/ geo/wgs84 pos#long> a :DatatypeProperty ;
+rdf s : domain <http ://www.w3 . org /2003/01/ geo/wgs84 pos#SpartialThing> ;
+rdf s : isDefinedBy <http ://www.w3 . org /2003/01/ geo/wgs84 pos#>,
+” the longitude of a spa r t i a l thing , i . e . , a point .” ;
+rdf s : range xsd : f l o a t .
+f o a f : firstName a : DatatypeProperty ;
+rdf s : comment ”the f i r s t name of a user .” ;
+rdf s : domain foaf : Person ;
+rdf s : isDefinedBy foaf : ;
+130
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+rdf s : range rdf s : Li t e ra l .
+f o a f : gender a : DatatypeProperty ;
+rdf s : comment ”the gender of a user , reused from foaf ” ;
+rdf s : domain foaf : Person ;
+rdf s : isDefinedBy foaf : ;
+rdf s : range rdf s : Li t e ra l .
+f o a f : lastName a : DatatypeProperty ;
+rdf s : comment ””” the l a s t name of a person .
+Reused from f o a f ””” ;
+rdf s : domain foaf : Person ;
+rdf s : isDefinedBy foaf : ;
+rdf s : range rdf s : Li t e ra l .
+<http :// pur l . obol ibrary . org /obo/UO 0000058> a :Class ;
+rdf s : labe l ” rotat ional frequency unit ” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/UO 0000105> .
+<http :// pur l . obol ibrary . org /obo/UO 0000113> a :Class ;
+rdf s : labe l ”power unit ” ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/uo . owl/unit> .
+toco : BelongsTo a : ObjectProperty ;
+rdf s : domain toco : UserDevice ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : User .
+toco : LTEAssociation a : Class ;
+rdf s : comment ”the elect romagnet ic wave car r ing modulated s ignal between LTE base
+station , or eNodeB , and user equipment”ˆˆxsd : s t r ing ;
+rdf s : subClassOf toco : Wi reles sAs sociat ion .
+toco : Sa t e l l i t eAs s o c i a t i on a : Class ;
+rdf s : comment ”the mill i −meter e l e c t romagne t i c wave car r ing modulated s i gna l
+between s a t e l l i t e base s t a t i ons and ground s t a t i on .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : Wi reles sAs sociat ion .
+toco :WiFiAssociation a : Class ;
+rdf s : comment ”the elect romagnet ic wave car r ing modulated s ignal between LTE base
+station , or eNodeB , and user equipment”ˆˆxsd : s t r ing ;
+rdf s : subClassOf toco : Wi reles sAs sociat ion .
+toco :WiredLink a : Class ;
+rdf s : comment ”wired l ink through twisted cable , opt i cal f iber , etc .” ;
+rdf s : subClassOf toco : Link .
+131
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+toco : hasWirelessLinkProperty a : DatatypeProperty ;
+rdf s : domain toco : Wi reles sAs sociat ion ;
+rdf s : range xsd : f l o a t ;
+rdf s : subPropertyOf toco : hasLinkProperty .
+<http :// pur l . obol ibrary . org /obo/UO 0000111> a :Class ;
+rdf s : labe l ”energy unit ” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/uo . owl/unit> .
+toco :LiFiWLAN a : Class ;
+rdf s : comment ”WLAN int e r f a c e on the devices in LIFi network , e . g . , LiFi user
+equipment , LiFi ac c e s s point .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco :WLAN .
+toco : Ses s ion a : Class ;
+rdf s : subClassOf toco : ConceptEntities .
+toco :WiFiWLAN a : Class ;
+rdf s : comment ”WLAN int e r f a c e on the devices in LIFi network , e . g . , LiFi user
+equipment , LiFi ac c e s s point .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco :WLAN .
+toco : hasLiFiUserEquipmentProperty a : DatatypeProperty ;
+rdf s : comment ” prope r t i e s of LiFi user equipments .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : LiFiUserEquipment ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t .
+toco : hasLink a : ObjectProperty ;
+rdf s : domain toco : Int e r fac e ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : Link .
+toco :hasWLAN a : ObjectProperty ;
+rdf s : domain toco : Device ;
+rdf s : range toco :WLAN ;
+rdf s : subPropertyOf toco : has Inter face .
+<http :// pur l . obol ibrary . org /obo/UO 0000001> a :Class ;
+rdf s : labe l ” length unit ” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/uo . owl/unit> .
+<http :// pur l . obol ibrary . org /obo/UO 0000060> a :Class ;
+rdf s : labe l ” speed/ ve loc i ty unit ” ;
+132
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/uo . owl/unit> .
+<http :// pur l . obol ibrary . org /obo/UO 0000105> a :Class ;
+rdf s : labe l ” frequency unit ” ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/uo . owl/unit> .
+toco : LiFiUserEquipment a : Class ;
+rdf s : comment ”any device used di r e c t ly by an end−user to communicate . I t can be a
+hand−held telephone , a laptop computer equipped with a mobi le broadband
+adapter , or any other device .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : UserEquipment .
+toco : User a : Class ;
+rdf s : comment ” reused from foaf ( http :// xmlns . com/ foaf /0.1/) . Represent a user in
+the telecommunication system.”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf foaf : Person .
+toco : has Int e r fac e a : ObjectProperty ;
+rdf s : comment ”the fac t that a device has a int e r f a c e .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : Device ;
+rdf s : isDefinedBy toco : ;
+rdf s : range toco : Int e r fac e .
+toco : hasLiFiAs sociat ionProper ty a : DatatypeProperty ;
+rdf s : comment ”The prope r t i e s of the v i s i abl e l i ght as soc iat ion between the LED on
+LiFi ac c e s s point and LiFi user equipment .”ˆˆ xsd : s t r ing ;
+rdf s : domain toco : LiFiAs sociat ion ;
+rdf s : range xsd : f l o a t ;
+rdf s : subPropertyOf toco : hasWirelessLinkProperty .
+toco : Phys i cal Inf ras t ruc tur e a : Class ;
+rdf s : comment ”””Describe a l l the phys ical resources in a telecommunication
+network system , which i s divided into three main modules , namely , device ,
+i n t e r face , l ink .
+Please be reminded the elect romagnet ic wave (which i s the l inks of a l l wi r e l e s s
+communication netwoks ) , even i f i t i s invi sabl e , phy s i c a l ly e x i s t s . Thus , i t i s
+a lso described in the subclas s of ”net ; Phys i cal Inf ras t ruc tur e ”.”””ˆˆ xsd : s t r ing .
+toco : UserDeviceStatus a : Class ;
+rdf s : subClassOf toco : ConceptEntities .
+toco : hasLiFiAccessPointProperty a : DatatypeProperty ;
+rdf s : comment ”datatype prope r t i e s dedicated for LiFi acces s points ”ˆˆxsd : s t r ing ;
+rdf s : domain toco : LiFiAccessPoint ;
+rdf s : isDefinedBy toco : ;
+133
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+rdf s : range xsd : f l o a t .
+f o a f : Person a : Class ;
+rdf s : isDefinedBy foaf : ;
+rdf s : subClassOf toco : ConceptEntities .
+<http :// pur l . obol ibrary . org /obo/UO 0000231> a :Class ;
+rdf s : labe l ” information unit ” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/uo . owl/unit> .
+toco : Action a : Class ;
+rdf s : comment ”the action of a f low def ined in OpenFlow protocol ” ;
+rdf s : subClassOf toco : ConceptEntities .
+toco : LiFiAccessPoint a : Class ;
+rdf s : comment ”The acces s point in Li−Fi network . Li−Fi i s a wi r e l e s s opt i c a l
+networking technology that uses l ight−emitting diodes (LEDs) for data
+transmission .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : AccessPoint .
+toco : LiFiAs sociat ion a : Class ;
+rdf s : comment ”the v i s i abl e l i ght car r ing modulated s i gna l s in Li−Fi network .
+Transmited and r e c e ived by LiFi user equipment and LiFi ac c e s s point .”ˆˆ xsd :
+s t r i n g ;
+rdf s : subClassOf toco : Wi reles sAs sociat ion .
+toco : SystemDevice a : Class ;
+rdf s : comment ”Al l the phys ical f a c i l i t i e s in the telecommunication system that
+provide the communication s e rvi c e to uses . For example : base s tat ion towers ,
+Wi−Fi ac c e s s points , switches , s e rve r s , etc .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : Device .
+toco : UserEquipment a : Class ;
+rdf s : comment ”any device used di r e c t ly by an end−user to communicate . I t can be a
+hand−held telephone , a laptop computer equipped with a mobi le broadband
+adapter , or any other device .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : UserDevice .
+toco : hasLinkProperty a : DatatypeProperty ,
+: ObjectProperty ;
+rdf s : domain toco : Link ;
+rdf s : isDefinedBy toco : ;
+rdf s : range xsd : f l o a t .
+toco : hasWi reles sAs sociat ion a : ObjectProperty ;
+rdf s : domain toco :WLAN ;
+134
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+rdf s : range toco : Wi reles sAs sociat ion ;
+rdf s : subPropertyOf toco : hasLink .
+<http ://www.w3 . org /2003/01/ geo/wgs84 pos#SpartialThing> a :Class ;
+rdf s : isDefinedBy <http ://www.w3 . org /2003/01/ geo/wgs84 pos#> ;
+rdf s : subClassOf toco : ConceptEntities .
+toco : AccessPoint a : Class ;
+rdf s : comment ”a wi r e l e s s acces s point , or more general ly just acces s point (AP) ,
+i s a networking hardware device that al lows a Wi−Fi/Li−Fi device to connect
+to a wired network . The AP usual ly connects to a router ( via a wired network )
+as a standalone device , but i t can al so be an int e g r a l component of the
+router i t s e l f . An AP i s di f f e r ent i a t ed from a hotspot , which i s the phys ical
+l o c a t i o n where Wi−Fi ac c e s s to a WLAN i s a v a i l abl e .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : SystemDevice .
+toco :WLAN a : Class ;
+rdf s : comment ”A wi r e l e s s l o c a l area network (WLAN) int e r f a c e , al so known as WLAN,
+i s the int e r fac e of a wi r e l e s s computer network that l inks two or more
+devices using wi r e l e s s communication within a l imi ted area such as a home ,
+school , computer laboratory , or o f f i c e bui lding .” ;
+rdf s : subClassOf toco : Int e r fac e .
+toco : Wi reles sAs sociat ion a : Class ;
+rdf s : comment ”the elect romeganet ic radio transmiting through wi r e l e s s channels in
+wir e l e s s network , car r ing communication data . Depend on i t s frequency , i t
+could be v i s i a b l e l ight , micro waves , radio waves .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : Link .
+toco : hasFlowProperty a : DatatypeProperty ;
+rdf s : isDefinedBy toco : .
+<http :// pur l . obol ibrary . org /obo/UO 0000003> a :Class ;
+rdf s : labe l ”time unit ” ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf <http :// pur l . obol ibrary . org /obo/uo . owl/unit> .
+<http :// pur l . obol ibrary . org /obo/uo . owl/unit> a :Class ;
+rdf s : comment ” reused from Units of measurement Ontology”ˆˆxsd : s t r ing ;
+rdf s : isDefinedBy <http :// pur l . obol ibrary . org /obo/uo . owl> ;
+rdf s : subClassOf toco : ConceptEntities .
+om: ObervationAndMeasurement a : Cl a s s ;
+rdf s : comment ” reused from SenSei Observation And Measurement Ontology ( http ://
+purl . oc l c . org/net/ unis / ontology / sensordata . owl ) .”ˆˆ xsd : s t r ing ;
+rdf s : isDefinedBy <http :// pur l . oc l c . org / net / unis / ontology / sensordata . owl> ;
+rdf s : subClassOf toco : ConceptEntities .
+135
+Appendix B: The TOUCAN Ontology (ToCo) – toco.ttl
+toco : ConceptEntities a : Class ;
+: disjointWith toco : PhysicalInfrastructure .
+toco : Flow a : Class ;
+rdf s : comment ”the f low entry in a f low table ins ide a switch or route . Defined by
+OpenFlow pr o t o c o l . ” ;
+rdf s : subClassOf toco : ConceptEntities .
+toco : UserDevice a : Class ;
+rdf s : comment ”User Devices , requi r ing connect ivi ty se rvic es , e . g . , phones ,
+tab le ts , laptops , wearable devices , etc .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : Device .
+toco : Se rvi c e a : Class ;
+rdf s : comment ”a communication service , e . g . , voice , video , f i l e uploading/
+downloading , etc .”ˆˆ xsd : s t r ing ;
+rdf s : subClassOf toco : ConceptEntities .
+toco : Link a : Class ;
+rdf s : subClassOf toco : Phys ical I n f ras t ruc tur e .
+toco : Device a : Class ;
+rdf s : comment ””” represent a l l the devices in the phys ical inf ras t ruc tur e of
+telecommunciation system .
+According to i t s user , could be divided into UserDevice and SystemDevice .”””ˆˆ xsd :
+s t r i n g ;
+rdf s : subClassOf toco : Phys ical I n f ras t ruc tur e .
+toco : Int e r f a c e a : Class ;
+rdf s : subClassOf toco : Phys ical I n f ras t ruc tur e .
+toco : a : Ontology ;
+rdf s : comment ”””Toucan Ontology (ToCo)

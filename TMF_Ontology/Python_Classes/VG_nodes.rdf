@@ -1,0 +1,56 @@
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Assurance -->
+
+<owl:Class rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Assurance">
+<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VerticalGroup"/>
+<rdf:label>Assurance</rdf:label>
+<rdfs:comment>Assurance</rdfs:comment>
+</owl:Class>
+
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Billing -->
+
+<owl:Class rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Billing">
+<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VerticalGroup"/>
+<rdf:label>Billing</rdf:label>
+<rdfs:comment>Billing</rdfs:comment>
+</owl:Class>
+
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Business Value Development -->
+
+<owl:Class rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Business Value Development">
+<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VerticalGroup"/>
+<rdf:label>Business Value Development</rdf:label>
+<rdfs:comment>Business Value Development</rdfs:comment>
+</owl:Class>
+
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Capability Management -->
+
+<owl:Class rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Capability Management">
+<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VerticalGroup"/>
+<rdf:label>Capability Management</rdf:label>
+<rdfs:comment>Capability Management</rdfs:comment>
+</owl:Class>
+
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Fulfillment -->
+
+<owl:Class rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Fulfillment">
+<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VerticalGroup"/>
+<rdf:label>Fulfillment</rdf:label>
+<rdfs:comment>Fulfillment</rdfs:comment>
+</owl:Class>
+
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Operations Readiness & Support -->
+
+<owl:Class rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Operations Readiness & Support">
+<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VerticalGroup"/>
+<rdf:label>Operations Readiness & Support</rdf:label>
+<rdfs:comment>Operations Readiness & Support</rdfs:comment>
+</owl:Class>
+
+<!-- http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Strategy Management -->
+
+<owl:Class rdf:about = "http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VG.Strategy Management">
+<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/ProcessModel_v1#VerticalGroup"/>
+<rdf:label>Strategy Management</rdf:label>
+<rdfs:comment>Strategy Management</rdfs:comment>
+</owl:Class>
+

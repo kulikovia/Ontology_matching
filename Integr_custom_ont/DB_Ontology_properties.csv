@@ -1,0 +1,10 @@
+property
+has
+hasTable
+hasColumn
+isIdentifiedBy
+references
+length
+scale
+usesProcedure
+usesTable

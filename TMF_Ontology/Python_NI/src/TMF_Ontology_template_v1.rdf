@@ -1,0 +1,329 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1/"
+     xml:base="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:TMF_v1="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#"
+     xmlns:TMF_SID_v1="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_SID_v1#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF_Lev.1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF_Lev.1">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Function"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF_Lev.2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF_Lev.2">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Function"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasABE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasABE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#TMFDomain"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#ABE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasAttribute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasAttribute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#BE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Attribute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasBE -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasBE">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#ABE"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#BE"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasDomain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasDomain">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Function"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#TMFDomain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasVerticalGroup -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasVerticalGroup">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Function"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Process"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VerticalGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AFLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AFLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#BriefDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#BriefDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Process"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#MaturityLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#MaturityLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Process"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#OriginalProcessIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#OriginalProcessIdentifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Process"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#ProcessIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#ProcessIdentifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Process"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#ProcessLevel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#ProcessLevel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Function"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasOrigin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasOrigin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Attribute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasStereotype -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasStereotype">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Attribute"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasUID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#hasUID">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Function"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#label">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#ABE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Attribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#BE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Function"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Process"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#TMFDomain"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VerticalGroup"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#ABE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Attribute"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#BE"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Function"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Process"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#TMFDomain"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VerticalGroup"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Process"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#ABE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#ABE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#TMFDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#AF">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Attribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Attribute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#BE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#BE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#BE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#ABE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Function">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#TMFDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#Process">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#TMFDomain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#TMFDomain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#TMFDomain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VerticalGroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/TMF_v1#VerticalGroup"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+		<!-- List of TMF entries -->
+
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

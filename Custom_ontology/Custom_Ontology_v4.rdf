@@ -1,0 +1,1131 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology/"
+     xml:base="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:relational="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#"
+     xmlns:custom_ontology="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#usesProcedure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#usesProcedure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#Package"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#usesTable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#usesTable">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure"/>
+        <rdfs:range rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:label>usesTable</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#hasColumn -->
+
+    <owl:ObjectProperty rdf:about="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#hasColumn">
+        <rdfs:domain rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:range rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>A Table has a set of Columns.</rdfs:comment>
+        <rdfs:label>hasColumn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#Package -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#Package">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Package</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#Package"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column -->
+
+    <owl:Class rdf:about="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column">
+        <rdfs:subClassOf rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>A Table has a set of Columns.</rdfs:comment>
+        <rdfs:label>Column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table -->
+
+    <owl:Class rdf:about="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table">
+        <rdfs:label>Table</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ABS_VOLUME -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ABS_VOLUME">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Absolute volume of balance change.</rdfs:comment>
+        <rdfs:label>ABS_VOLUME</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ACTIVATION_DATE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ACTIVATION_DATE">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Subscriber activation date.</rdfs:comment>
+        <rdfs:label>ACTIVATION_DATE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BALANCE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BALANCE">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>The amount of the client&apos;s current balance.</rdfs:comment>
+        <rdfs:label>BALANCE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BALANCE_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BALANCE_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Resource balance code identifier. Foreign key to the BALANCE_ID field of the BALANCE table.</rdfs:comment>
+        <rdfs:label>BALANCE_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BAL_LEVEL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BAL_LEVEL">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Balance threshold.</rdfs:comment>
+        <rdfs:label>BAL_LEVEL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BILL_CHRG_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BILL_CHRG_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Primary key.</rdfs:comment>
+        <rdfs:label>BILL_CHRG_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CHARGE_DATE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CHARGE_DATE">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Charge date.</rdfs:comment>
+        <rdfs:label>CHARGE_DATE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CHRG_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CHRG_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Primary key.</rdfs:comment>
+        <rdfs:label>CHRG_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CHTYPE_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CHTYPE_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Charge type. Foreign key to the CHTYPE_ID field of the CHARGE_TYPE table.</rdfs:comment>
+        <rdfs:label>CHTYPE_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_BAL_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_BAL_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Balance ID. Foreign key to the CLNT_BAL_ID field of the CLIENT_BALANCE table.</rdfs:comment>
+        <rdfs:label>CLNT_BAL_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Unique identifier of the client&apos;s personal account. Foreign key to the CLNT_ID field of the CLIENT table.</rdfs:comment>
+        <rdfs:label>CLNT_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CORR_DATE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CORR_DATE">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Date of adjustment.</rdfs:comment>
+        <rdfs:label>CORR_DATE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CORR_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CORR_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Primary key</rdfs:comment>
+        <rdfs:label>CORR_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CORR_TYPE_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CORR_TYPE_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Foreign key on the CORR_TYPE_ID field of the CORR_TYPE table.</rdfs:comment>
+        <rdfs:label>CORR_TYPE_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CT_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CT_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Client type identifier. Foreign key to the CT_ID field of the CLIENT_TYPE table.</rdfs:comment>
+        <rdfs:label>CT_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CURR_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CURR_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>rdfs:label &quot;Currency code. Foreign key to the CURR_ID field of the CURRENCY table.&quot;</rdfs:comment>
+        <rdfs:label>CURR_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CUSTOMER_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CUSTOMER_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Unique customer identifier. Foreign key to the CUSTOMER_ID field of the CUSTOMER table.</rdfs:comment>
+        <rdfs:label>CUSTOMER_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Order completion date.</rdfs:comment>
+        <rdfs:label>DATE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_DATE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_DATE">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>End date of the billing period.</rdfs:comment>
+        <rdfs:label>END_DATE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_INTERVAL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_INTERVAL">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>The end date of the billing period for the service.</rdfs:comment>
+        <rdfs:label>END_INTERVAL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_TIME -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_TIME">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>The end date of the service history.</rdfs:comment>
+        <rdfs:label>END_TIME</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ERROR_MESSAGE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ERROR_MESSAGE">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Error message if an error occurred while processing a pending order.</rdfs:comment>
+        <rdfs:label>ERROR_MESSAGE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#EXPIRED_DATE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#EXPIRED_DATE">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Balance expiration date.</rdfs:comment>
+        <rdfs:label>EXPIRED_DATE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#MSISDN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#MSISDN">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Phone number.</rdfs:comment>
+        <rdfs:label>MSISDN</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ORDB_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ORDB_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Order ID. Primary key.</rdfs:comment>
+        <rdfs:label>ORDB_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ORD_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ORD_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Order ID. Primary key.</rdfs:comment>
+        <rdfs:label>ORD_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PAY_DATE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PAY_DATE">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Payment (transaction) date.</rdfs:comment>
+        <rdfs:label>PAY_DATE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PHONE_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PHONE_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Phone number identifier. Foreign key to the PHONE_ID field of the PHONE table.</rdfs:comment>
+        <rdfs:label>PHONE_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PM_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PM_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Payment method identifier (operation type). Foreign key to the PM_ID field of the PAY_MODE table.</rdfs:comment>
+        <rdfs:label>PM_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PRIORITY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PRIORITY">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Balance priority.</rdfs:comment>
+        <rdfs:label>PRIORITY</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PROLONG_PERIOD_END_DATE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PROLONG_PERIOD_END_DATE">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Prolong period end date. The date until which the billing period of the service is extended.</rdfs:comment>
+        <rdfs:label>PROLONG_PERIOD_END_DATE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PROLONG_PERIOD_NUMBER -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PROLONG_PERIOD_NUMBER">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Number of completed extensions of the billing period.</rdfs:comment>
+        <rdfs:label>PROLONG_PERIOD_NUMBER</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#QUOTA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#QUOTA">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Quota volume (maximum amount of funds available to the subscriber from the balance).</rdfs:comment>
+        <rdfs:label>QUOTA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#QUOTA_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#QUOTA_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Quota ID. Foreign key to the QUOTA_ID field of the QUOTA table. Primary key.</rdfs:comment>
+        <rdfs:label>QUOTA_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#REL_VOLUME -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#REL_VOLUME">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Relative amount of balance change.</rdfs:comment>
+        <rdfs:label>REL_VOLUME</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#RES_BAL_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#RES_BAL_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Resource balance identifier. Primary key.</rdfs:comment>
+        <rdfs:label>RES_BAL_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#RES_PAY_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#RES_PAY_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Operation ID. Primary key.</rdfs:comment>
+        <rdfs:label>RES_PAY_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SACT_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SACT_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Action ID with service. Foreign key to the SACT_ID field of the SERVICE_ACTION_DIRECTORY table.</rdfs:comment>
+        <rdfs:label>SACT_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SACT_NAME -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SACT_NAME">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Name of the action.</rdfs:comment>
+        <rdfs:label>SACT_NAME</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_BAL_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CORR_DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CORR_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CORR_TYPE_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CURR_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUMM"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#VAT"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#WOVAT"/>
+        <rdfs:comment>Service identifier. Foreign key to the field SERV_ID of the SERVICE table.</rdfs:comment>
+        <rdfs:label>SERV_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_NAME -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_NAME">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Name of the service.</rdfs:comment>
+        <rdfs:label>SERV_NAME</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_TYPE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_TYPE">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Service type. Foreign key to the TYPE_ID field of the SERV_TYPE table.</rdfs:comment>
+        <rdfs:label>SERV_TYPE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SSB_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SSB_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Service billing period identifier.
+Foreign key to the SSB_ID field
+of the SUBSCRIBER_SERVICE_BILLING table.</rdfs:comment>
+        <rdfs:label>SSB_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_BILLING_INTERVAL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_BILLING_INTERVAL">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Start date of the billing period.</rdfs:comment>
+        <rdfs:label>START_BILLING_INTERVAL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_DATE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_DATE">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Start date of the balance.</rdfs:comment>
+        <rdfs:label>START_DATE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_INTERVAL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_INTERVAL">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>The start date of the billing period for the service.</rdfs:comment>
+        <rdfs:label>START_INTERVAL</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_TIME -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_TIME">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>The start date of the service history.</rdfs:comment>
+        <rdfs:label>START_TIME</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#STATUS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#STATUS">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Pending order status.</rdfs:comment>
+        <rdfs:label>STATUS</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#STAT_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#STAT_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Subscriber status. Foreign key to the STAT_ID field of the STATUS table.</rdfs:comment>
+        <rdfs:label>STAT_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ST_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ST_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Subscriber type. Foreign key on the ST_ID field of the SUBS_TYPE table.</rdfs:comment>
+        <rdfs:label>ST_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUBS_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUBS_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Subscriber ID. Foreign key to the SUBS_ID field of the SUBSCRIBER table.</rdfs:comment>
+        <rdfs:label>SUBS_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUMM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUMM">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Adjustment amount with tax.</rdfs:comment>
+        <rdfs:label>SUMM</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#TRPL_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#TRPL_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Tariff plan identifier. Foreign key to the TRPL_ID field of the TARIFF_PLAN table. Primary key.</rdfs:comment>
+        <rdfs:label>TRPL_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>ID of the user who created the service order. Foreign key to the
+USER_ID field of the USER table.</rdfs:comment>
+        <rdfs:label>USER_ID</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#VAT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#VAT">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Tax amount.</rdfs:comment>
+        <rdfs:label>VAT</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#VOLUME -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#VOLUME">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Amount on balance (remainder).</rdfs:comment>
+        <rdfs:label>VOLUME</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#WOVAT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#WOVAT">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Column"/>
+        <rdfs:comment>Correction amount</rdfs:comment>
+        <rdfs:label>WOVAT</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#billing_charge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#billing_charge">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BILL_CHRG_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_BAL_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_ID"/>
+        <rdfs:comment>Correspondence between charges and the accruals they cover.</rdfs:comment>
+        <rdfs:label>billing_charge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#charge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#charge">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CHARGE_DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CHRG_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CHTYPE_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_BAL_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUBS_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#TRPL_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID"/>
+        <rdfs:comment>Charges for clients and subscribers.</rdfs:comment>
+        <rdfs:label>charge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#charge_prolong_period -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#charge_prolong_period">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>Extended service periods</rdfs:comment>
+        <rdfs:label>charge_prolong_period</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#check_rule_to_switchon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#check_rule_to_switchon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_action"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_order"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#service"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_serv_history"/>
+        <rdfs:comment>Checks the possibility of enabling the service according to the connection rules
+(Centralized Ordering Rules Management) &lt;- (check_rule_to_switchon)</rdfs:comment>
+        <rdfs:label>check_rule_to_switchon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#client -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#client">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CURR_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CUSTOMER_ID"/>
+        <rdfs:comment>List of personal accounts of the system&apos;s clients.</rdfs:comment>
+        <rdfs:label>client</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#client_balance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#client_balance">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BALANCE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BALANCE_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BAL_LEVEL"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_BAL_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PRIORITY"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID"/>
+        <rdfs:comment>client_balance</rdfs:comment>
+        <rdfs:label>client_balance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#client_history -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#client_history">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_TIME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_TIME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#STAT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#TRPL_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID"/>
+        <rdfs:comment>History of changes in client parameters.</rdfs:comment>
+        <rdfs:label>client_history</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#correction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#correction">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>Customer adjustments.</rdfs:comment>
+        <rdfs:label>correction</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#inv_order -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#inv_order">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#Package"/>
+        <custom_ontology:usesProcedure rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#check_rule_to_switchon"/>
+        <custom_ontology:usesProcedure rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#new_serv_order"/>
+        <custom_ontology:usesProcedure rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#update_serv_order"/>
+        <rdfs:comment>Ordering and processing of physical and logical services</rdfs:comment>
+        <rdfs:label>inv_order</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#itog_charge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#itog_charge">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>Correspondence between charges and the accruals they cover.</rdfs:comment>
+        <rdfs:label>itog_charge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#new_serv_order -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#new_serv_order">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#charge_prolong_period"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#resource_balance"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_order"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#service"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#sord_buffer"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_serv_history"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#tariff_service"/>
+        <rdfs:comment>Ordering a new logical service
+(Centralized Ordering Rules Management) &lt;- (new_serv_order)</rdfs:comment>
+        <rdfs:label>new_serv_order</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#order_buffer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#order_buffer">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ERROR_MESSAGE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ORDB_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SACT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#STATUS"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUBS_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID"/>
+        <rdfs:comment>Pending orders.</rdfs:comment>
+        <rdfs:label>order_buffer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#phone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#phone">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#MSISDN"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PHONE_ID"/>
+        <rdfs:comment>Directory of subscriber numbers.</rdfs:comment>
+        <rdfs:label>phone</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#prolonged_billing_periods -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#prolonged_billing_periods">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PROLONG_PERIOD_END_DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PROLONG_PERIOD_NUMBER"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_BILLING_INTERVAL"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUBS_ID"/>
+        <rdfs:comment>Extended service periods.</rdfs:comment>
+        <rdfs:label>prolonged_billing_periods</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#quota_history -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#quota_history">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_TIME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#QUOTA"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#QUOTA_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_TIME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID"/>
+        <rdfs:comment>History of changes to quota parameters.</rdfs:comment>
+        <rdfs:label>quota_history</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#resource_balance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#resource_balance">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#BALANCE_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#EXPIRED_DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#RES_BAL_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUBS_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#VOLUME"/>
+        <rdfs:comment>Resource balances of clients and subscribers</rdfs:comment>
+        <rdfs:label>resource_balance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#resource_payment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#resource_payment">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ABS_VOLUME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#EXPIRED_DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PAY_DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PM_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#REL_VOLUME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#RES_BAL_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#RES_PAY_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUBS_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID"/>
+        <rdfs:comment>Operations with resource balances.</rdfs:comment>
+        <rdfs:label>resource_payment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_action">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>System directory of actions on services</rdfs:comment>
+        <rdfs:label>serv_action</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_order -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_order">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ORD_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SACT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUBS_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID"/>
+        <rdfs:comment>Orders for logical services</rdfs:comment>
+        <rdfs:label>serv_order</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#service">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_NAME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_TYPE"/>
+        <rdfs:comment>Directory of logical services provided to system subscribers</rdfs:comment>
+        <rdfs:label>service</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#service_action_directory -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#service_action_directory">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SACT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SACT_NAME"/>
+        <rdfs:comment>System directory of actions on services.</rdfs:comment>
+        <rdfs:label>service_action_directory</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#sord_buffer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#sord_buffer">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>Pending orders</rdfs:comment>
+        <rdfs:label>sord_buffer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_history -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_history">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#CLNT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_TIME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#PHONE_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_TIME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#STAT_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ST_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUBS_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#TRPL_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID"/>
+        <rdfs:comment>History of changes in subscriber parameters.</rdfs:comment>
+        <rdfs:label>subs_history</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_serv_charge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_serv_charge">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_INTERVAL"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SSB_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_INTERVAL"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUBS_ID"/>
+        <rdfs:comment>Billing (tariff) periods of services connected to the subscriber.</rdfs:comment>
+        <rdfs:label>subs_serv_charge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_serv_history -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_serv_history">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_TIME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_TIME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUBS_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID"/>
+        <rdfs:comment>History of services of system subscribers</rdfs:comment>
+        <rdfs:label>subs_serv_history</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subscriber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subscriber">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#ACTIVATION_DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SUBS_ID"/>
+        <rdfs:comment>Subscribers of the system.</rdfs:comment>
+        <rdfs:label>subscriber</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#tariff_service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#tariff_service">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <rdfs:comment>History of changes in TP services</rdfs:comment>
+        <rdfs:label>tariff_service</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#tariff_service_history -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#tariff_service_history">
+        <rdf:type rdf:resource="https://www.dbs.cs.uni-duesseldorf.de/RDF/relational.owl#Table"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#DATE"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#END_TIME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#SERV_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#START_TIME"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#TRPL_ID"/>
+        <relational:hasColumn rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#USER_ID"/>
+        <rdfs:comment>History of changes in TP services.</rdfs:comment>
+        <rdfs:label>tariff_service_history</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#update_serv_order -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#update_serv_order">
+        <rdf:type rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#procedure"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#resource_balance"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_action"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#serv_order"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#sord_buffer"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#subs_serv_history"/>
+        <custom_ontology:usesTable rdf:resource="http://www.semanticweb.org/igork/ontologies/2024/1/custom_ontology#tariff_service"/>
+        <rdfs:comment>Changing the status of a service order. Change of service history. Disable/enable discounts
+(Centralized Ordering Rules Management) &lt;- ( update_serv_order)</rdfs:comment>
+        <rdfs:label>update_serv_order</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
